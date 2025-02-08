@@ -19,17 +19,26 @@ import time
 BLOG_AUTHOR = "Ian"  # (translatable)
 #BLOG_TITLE = "Te Papanui Enderley Community Trust"  # (translatable)
 
-BLOG_TITLE = {"en": "Te Papanui Enderley Community Trust",
-              "mi": "Te Papanui Enderley Hapori Kaitiaki"}
-             
+#BLOG_TITLE = {"en": "Te Papanui Enderley Community Trust",
+#              "mi": "Te Papanui Enderley Hapori Kaitiaki"}
+
+Ian 2025-02-09
+BLOG_TITLE = {"en": "Streisand Effect"}
+
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://papanui.github.io/"
+#SITE_URL = "https://papanui.github.io/"
+Ian 2025-02-09
+SITE_URL = "https://irsbugs.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://papanui.github.io/"
-BLOG_EMAIL = "papanui.hapori@gmail.com"
-BLOG_DESCRIPTION = "Te Papanui Enderley Community Trust website"  # (translatable)
+#BLOG_EMAIL = "papanui.hapori@gmail.com"
+
+#Ian 2025-02-09
+BLOG_EMAIL = "irsbugs@hotmail.com"
+
+BLOG_DESCRIPTION = "Test website for Streisand Effect documents"  # (translatable)
 
 # Nikola is multilingual!
 #
@@ -111,10 +120,13 @@ TRANSLATIONS = {
     # "es": "./es",
 }
 """
+# Ian - remove Maori 20025-02-09
+"""
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     "mi": "./mi",
 }
+"""
 
 # What will translated input files be named like?
 
@@ -206,7 +218,8 @@ NAVIGATION_LINKS = {
     ),
 }
 """
-
+"""
+Ian Comment out 2025-02-09
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
@@ -221,6 +234,17 @@ NAVIGATION_LINKS = {
         ("/mi/feedback/", "Urupare"),
         ("/mi/download/", "Tongohia"),
         ("/mi/contact-us/", "Whakapa Mai"),
+    ),
+}
+"""
+# Ian 2025-02-09
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/index.html", "Welcome"),
+        ("/events/", "Events"),
+        ("/feedback/", "Feedback"),
+        ("/download/", "Download"),
+        ("/contact-us/", "Contact Us"),
     ),
 }
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
