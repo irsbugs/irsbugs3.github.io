@@ -13,4 +13,5 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 This contains writings related to the legal position. Use a drop down menu to select document.
 
- 
+Document list:
+* [Terrorists](/legal_docs/terrorists/)
