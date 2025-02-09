@@ -245,6 +245,7 @@ NAVIGATION_LINKS = {
         ("/events/", "Events"),
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
+        ("/legal/", "Legal"),
         ("/contact-us/", "Contact Us"),
     ),
 }
