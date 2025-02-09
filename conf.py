@@ -238,7 +238,8 @@ NAVIGATION_LINKS = {
 }
 
 '''
-# Ian 2025-02-09
+'''
+# Ian 2025-02-09 tried to have a folder off pages called legal
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
@@ -260,6 +261,23 @@ NAVIGATION_LINKS = {
         ("/contact-us/", "Contact Us"),
     ),
 }
+'''
+
+# Ian 2025-02-09 Cant get the legal directory recognised.
+NAVIGATION_LINKS = {
+    DEFAULT_LANG: (
+        ("/index.html", "Welcome"),
+        ("/legal/", "Legal"),   
+        ("/legal1/", "Legal1"),  
+        ("/events/", "Events"),
+        ("/feedback/", "Feedback"),
+        ("/download/", "Download"),
+        ("/contact-us/", "Contact Us"),
+    ),
+}
+
+
+
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
