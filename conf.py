@@ -28,7 +28,7 @@ BLOG_TITLE = {"en": "Streisand Effect"}
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 #SITE_URL = "https://papanui.github.io/"
-Ian 2025-02-09
+# vIan 2025-02-09
 SITE_URL = "https://irsbugs.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
