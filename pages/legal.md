@@ -4,7 +4,7 @@ date: 2025-02-09
 description: This is the main page for the Legal set of files.
 type: text
 hidetitle: True
-<!-- Author: Ian Stewart -->
+<!-- Author: Ian Stewart. -->
 
 # Legal
 
