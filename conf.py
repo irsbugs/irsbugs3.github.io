@@ -246,7 +246,7 @@ NAVIGATION_LINKS = {
         (
             (
                 ('/legal/', 'Legal Overview of Documents'),
-                ('/step1/', '1. PythonAnywhere Account'),
+                ('/legal/terrorists/', 'Terrorists'),
                 ('/step2/', '2. Nikola Installation'),
                 ('/step3/', '3. Creating a Website'),
                 ('/step4/', '4. Website Tailoring'),
