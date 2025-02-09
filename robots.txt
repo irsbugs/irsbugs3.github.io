@@ -1,4 +1,4 @@
-Sitemap: https://papanui.github.io/sitemapindex.xml
+Sitemap: https://irsbugs.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: papanui.github.io
+Host: irsbugs.github.io
