@@ -163,7 +163,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-"""
+'''
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/archive.html", "Archive"),
@@ -217,8 +217,7 @@ NAVIGATION_LINKS = {
         ("/mi/test/", "Maori Testing"),
     ),
 }
-"""
-"""
+'''
 Ian Comment out 2025-02-09
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
@@ -236,7 +235,8 @@ NAVIGATION_LINKS = {
         ("/mi/contact-us/", "Whakapa Mai"),
     ),
 }
-"""
+
+'''
 # Ian 2025-02-09
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
@@ -247,6 +247,7 @@ NAVIGATION_LINKS = {
         ("/contact-us/", "Contact Us"),
     ),
 }
+'''
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
