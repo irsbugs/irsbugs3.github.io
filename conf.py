@@ -22,7 +22,7 @@ BLOG_AUTHOR = "Ian"  # (translatable)
 #BLOG_TITLE = {"en": "Te Papanui Enderley Community Trust",
 #              "mi": "Te Papanui Enderley Hapori Kaitiaki"}
 
-Ian 2025-02-09
+#Ian 2025-02-09
 BLOG_TITLE = {"en": "Streisand Effect"}
 
 # This is the main URL for your site. It will be used
