@@ -31,7 +31,7 @@ He also has written a book ["The Great Post Office Scandal"](https://bathpublish
 
 After far too long, it was accepted that the issue was far more likely to be the unreliability of the computer system than the fault of the postmasters. There was a huge civil court case, _Bates v Post Office_, in the UK, followed by criminal appeals to reverse previous convictions.
 
-Having got interested in it because of my background in both law and proving computer software works correctly, I was quite gobsmacked to find my experience of doing practical statistics was also relevant to the issue, in assessing the statistical evidence of the Post Office's expert witness. Fortunately the judge didn't think much of his analyses either. I write about that (with a few comments on other points) [here](worden-writeup.html)
+Having got interested in it because of my background in both law and proving computer software works correctly, I was quite gobsmacked to find my experience of doing practical statistics was also relevant to the issue, in assessing the statistical evidence of the Post Office's expert witness. Fortunately the judge didn't think much of his analyses either. I write about that (with a few comments on other points) [here](/legal_docs/worden-writeup.html)
 
 UPDATE: When I wrote that piece I wasn't aware of [Stephen Mason](https://ials.sas.ac.uk/about/about-us/people/stephen-mason)'s article [The use of statistics and software code](https://ials.blogs.sas.ac.uk/2019/06/26/the-use-of-statistics-and-software-code/) in which he discusses this in detail - his article quotes and discusses Dr Worden's statistics as presented in the opening address of the counsel for the Post Office.
 
