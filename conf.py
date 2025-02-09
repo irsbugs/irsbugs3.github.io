@@ -121,7 +121,7 @@ TRANSLATIONS = {
 }
 '''
 # Ian - remove Maori 20025-02-09
-"""
+'''
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     "mi": "./mi",
