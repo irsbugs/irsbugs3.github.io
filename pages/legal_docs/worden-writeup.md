@@ -5,7 +5,6 @@ description: Dr. Robert Worden's evidence.
 type: text 
 hidetitle: True
 
-
 The statistical evidence in the postmasters: Bates (Horizon Issues) trial
 =========================================================================
 
