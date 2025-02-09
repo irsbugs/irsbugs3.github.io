@@ -112,21 +112,21 @@ DEFAULT_LANG = "en"
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
 # Provide Support for Maori. mi. Ian 2021-01-20
-"""
+'''
 TRANSLATIONS = {
     DEFAULT_LANG: "en",
     "mi": "./mi",
     # Example for another language:
     # "es": "./es",
 }
-"""
+'''
 # Ian - remove Maori 20025-02-09
 """
 TRANSLATIONS = {
     DEFAULT_LANG: "",
     "mi": "./mi",
 }
-"""
+'''
 
 # What will translated input files be named like?
 
@@ -218,6 +218,7 @@ NAVIGATION_LINKS = {
     ),
 }
 '''
+'''
 # Ian Comment out 2025-02-09 then put back in
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
@@ -247,7 +248,7 @@ NAVIGATION_LINKS = {
         ("/contact-us/", "Contact Us"),
     ),
 }
-'''
+
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
