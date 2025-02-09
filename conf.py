@@ -242,17 +242,17 @@ NAVIGATION_LINKS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        ("/legal/", "Legal"),
+        ("/legal1/", "Legal1"),
         (
             (
-                ('/steps/', 'Overview of Steps'),
+                ('/legal/', 'Legal Overview of Documents'),
                 ('/step1/', '1. PythonAnywhere Account'),
                 ('/step2/', '2. Nikola Installation'),
                 ('/step3/', '3. Creating a Website'),
                 ('/step4/', '4. Website Tailoring'),
                 ('/step5/', '5. ReST Editor'),
             ),
-            '<strong>Steps</strong>'
+            '<strong>Legal</strong>'
         ),        
         ("/events/", "Events"),
         ("/feedback/", "Feedback"),
