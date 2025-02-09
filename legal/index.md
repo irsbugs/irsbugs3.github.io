@@ -1,7 +1,9 @@
 title: Legal 
-slug: legal date: 2025-02-09 
+slug: legal 
+date: 2025-02-09 
 description: This is the main page for the Legal set of files. 
-type: text hidetitle: True
+type: text 
+hidetitle: True
 
 
 Assorted legal or political writings
