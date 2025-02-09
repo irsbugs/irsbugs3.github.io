@@ -268,7 +268,8 @@ NAVIGATION_LINKS = {
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        ("/legal/", "Legal Issues"),   
+        ("/legal/", "Legal Issues"),
+        ("/legal1/", "Legal1"),
         ("/streisand/", "Streisand Effect"),  
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
@@ -285,7 +286,8 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        ("/legal/", "Legal Issues"),   
+        ("/legal/", "Legal Issues"),
+        ("/legal1/", "Legal1"),        
         ("/streisand/", "Streisand Effect"),  
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
