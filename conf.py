@@ -263,19 +263,19 @@ NAVIGATION_LINKS = {
 }
 '''
 
+'''
 # Ian 2025-02-09 Cant get the legal directory recognised.
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        ("/legal/", "Legal"),   
-        ("/legal1/", "Legal1"),  
-        ("/events/", "Events"),
+        ("/legal/", "Legal Issues"),   
+        ("/streisand/", "Streisand Effect"),  
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
         ("/contact-us/", "Contact Us"),
     ),
 }
-
+'''
 
 
 
@@ -283,7 +283,14 @@ NAVIGATION_LINKS = {
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 NAVIGATION_ALT_LINKS = {
-    DEFAULT_LANG: ()
+    DEFAULT_LANG: (
+        ("/index.html", "Welcome"),
+        ("/legal/", "Legal Issues"),   
+        ("/streisand/", "Streisand Effect"),  
+        ("/feedback/", "Feedback"),
+        ("/download/", "Download"),
+        ("/contact-us/", "Contact Us"),        
+    )
 }
 
 # Name of the theme to use.
