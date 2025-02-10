@@ -1305,9 +1305,13 @@ MARKDOWN_EXTENSIONS = ['markdown.extensions.fenced_code', 'markdown.extensions.c
 
 # Show link to source for the posts?
 # SHOW_SOURCELINK = True
+# Ian 2025-02-11 - Don't put "source" on the navigation bar
+SHOW_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies SHOW_SOURCELINK = False
 # COPY_SOURCES = True
+# Ian 2025-02-11 - The files are in the "src pages" dir, dont need another copy' 
+COPY_SOURCES = False
 
 # Modify the number of Post per Index Page
 # Defaults to 10
