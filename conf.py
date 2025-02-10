@@ -1405,6 +1405,7 @@ USE_CDN = True
 # (translatable)
 # EXTRA_HEAD_DATA = ""
 # Ian 2025-02-11
+'''
 EXTRA_HEAD_DATA = """blockquote {
   display:inline;
   background-color:#000;
@@ -1413,6 +1414,10 @@ EXTRA_HEAD_DATA = """blockquote {
   text-indent: 20px;
   color:#fff;
 }"""
+'''
+# Ian some more
+EXTRA_HEAD_DATA = "<!-- A comment -->"
+
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
