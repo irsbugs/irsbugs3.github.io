@@ -8,15 +8,6 @@
 .. type: text
 .. hidetitle: True
 
-blockquote {
-  display:inline;
-  background-color:#000;
-  margin-left: 20px;
-  padding-left: 20px;
-  text-indent: 20px;
-  color:#fff;
-}
-
 
 The statistical evidence in the postmasters: Bates (Horizon Issues) trial
 =========================================================================
