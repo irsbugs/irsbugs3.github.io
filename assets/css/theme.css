@@ -36,7 +36,8 @@ blockquote p, blockquote {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.25;
-  margin-left: 20px  
+  margin-left: 20px;
+  padding-left: 15px;
 }
 
 ul.bricks > li {
