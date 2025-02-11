@@ -19,15 +19,17 @@ For Nick Wallis's book, The Great Post Office Scandal, see [https://bathpublishi
 
 In the Horizon Issues trial, statistical analyses were provided by the Post Office's expert witness, Dr Robert Worden. The judge, at para 805 of the judgment, quotes section 8.8.1 of Dr Worden's report (paras 759 to 766), as follows:
 
-> 760. Because Post Office has had an average of 13,560 branches over the lifetime of Horizon, the total number of monthly branch accounts has been about 3 million.
->
-> 761. Therefore, if a bug like the Suspense Account bug has occurred 16 times in the lifetime of Horizon, the chance of it having occurred in any given branch in any given month is about 16 in 3 million. \[omitted text refines this calculation\]
->
-> 762. I have considered a bug similar to the suspense account bug, which occurred about 10 times, and had a mean financial impact of about £1000 per occurrence. How many similar bugs would be needed, to give a one in ten chance of one such bug occurring, with an impact of £1000, on a particular Claimant's branch in a particular month?
->
-> 763. The answer, given by elementary arithmetic which I describe in section 8.5, is that there would need to be 50,000 of these distinct bugs.
->
-> 764. So the Claimants cannot credibly assert that their shortfalls were caused by bugs in Horizon, unless there were something of the order of 50,000 such bugs.
+<blockquote>
+760. Because Post Office has had an average of 13,560 branches over the lifetime of Horizon, the total number of monthly branch accounts has been about 3 million.
+
+761. Therefore, if a bug like the Suspense Account bug has occurred 16 times in the lifetime of Horizon, the chance of it having occurred in any given branch in any given month is about 16 in 3 million. \[omitted text refines this calculation\]
+
+762. I have considered a bug similar to the suspense account bug, which occurred about 10 times, and had a mean financial impact of about £1000 per occurrence. How many similar bugs would be needed, to give a one in ten chance of one such bug occurring, with an impact of £1000, on a particular Claimant's branch in a particular month?
+
+763. The answer, given by elementary arithmetic which I describe in section 8.5, is that there would need to be 50,000 of these distinct bugs.
+
+764. So the Claimants cannot credibly assert that their shortfalls were caused by bugs in Horizon, unless there were something of the order of 50,000 such bugs.
+</blockquote>
 
 This is complete nonsense. It like arguing in a murder trial that because the homicide rate in the UK is only 1 per 100,000 per year, it is overwhelmingly unlikely that the defendant is guilty.
 
