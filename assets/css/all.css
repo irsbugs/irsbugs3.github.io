@@ -723,11 +723,9 @@ div.figure > a > img {
 }
 
 blockquote p, blockquote {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 300;
-  line-height: 1.2;
-  margin-left: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.25;
 }
 
 ul.bricks > li {
