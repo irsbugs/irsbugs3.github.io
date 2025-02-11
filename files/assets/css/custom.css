@@ -1,0 +1,11 @@
+/*custom.css file
+Add indentation to text block quotes
+Ian 21025-02-11
+*/
+blockquote p, blockquote {
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-left: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
