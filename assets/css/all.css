@@ -724,12 +724,12 @@ div.figure > a > img {
 
 blockquote p, blockquote {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.25rem;
+  font-size: 1.0rem;
   font-weight: 300;
-  line-height: 1.25;
+  line-height: 1;
   margin-left: 20px;
 }
-/* Ian 2025-02-11 Tried  text-indent: 10px; padding-left: 20px;*/
+/* Ian 2025-02-11 Tried  text-indent: 10px; padding-left: 20px; line height and font-size were 1.25 - change to 1.0*/
 ul.bricks > li {
     display: inline;
     background-color: lightblue;
