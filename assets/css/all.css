@@ -724,9 +724,9 @@ div.figure > a > img {
 /* Ian 2025-02-11 - Modified. */
 blockquote p, blockquote {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 300;
-  line-height: 1.2;
+  line-height: 1.1;
   margin-left: 20px;
 }
 /* Ian 2025-02-11 Tried  text-indent: 10px; padding-left: 20px; line height and font-size were 1.25 - change to 1.0*/
