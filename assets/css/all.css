@@ -721,10 +721,10 @@ div.figure > a > img {
     margin-left: auto;
     margin-right: auto;
 }
-
+/* Ian 2025-02-11 - Modified. */
 blockquote p, blockquote {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 300;
   line-height: 1.2;
   margin-left: 20px;
