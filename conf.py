@@ -436,7 +436,10 @@ TIMEZONE = "Pacific/Auckland"
 # Default is:
 # FILES_FOLDERS = {'files': ''}
 # Which means copy 'files' into 'output'
-FILES_FOLDERS = {'files': 'files'}
+#FILES_FOLDERS = {'files': 'files'}
+
+#Ian 2025-02-11 Getting custom css to work
+FILES_FOLDERS = {'files': 'files', 'file/assets/css/': 'assets/css/'}
 
 # One or more folders containing code listings to be processed and published on
 # the site. The format is a dictionary of {source: relative destination}.
