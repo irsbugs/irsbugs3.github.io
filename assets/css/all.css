@@ -945,14 +945,15 @@ Ian 2025-02-12 add logo, etc from WLUG website custom.css
 /*
 Set the height of the logo...
 */
+
+#logo {
+    height: 50px;
+}
 /*
 #logo {
     height: 20px;
 }
 */
-logo {
-    height: 20px;
-}
 /*
 .navbar-default .navbar-nav>.active>a:before,
 .navbar-nav>li>a:before {
