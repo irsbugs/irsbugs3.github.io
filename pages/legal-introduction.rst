@@ -49,7 +49,7 @@ find my experience of doing practical statistics was also relevant to
 the issue, in assessing the statistical evidence of the Post Office's
 expert witness. Fortunately the judge didn't think much of his analyses
 either. I write about that (with a few comments on other points)
-`here <../legal_docs/worden-writeup.html>`__
+`here </legal_docs/worden-writeup>`__
 
 UPDATE: When I wrote that piece I wasn't aware of `Stephen
 Mason <https://ials.sas.ac.uk/about/about-us/people/stephen-mason>`__'s
@@ -86,7 +86,7 @@ Perverting the course of justice?
 A lot of the prosecutions wouldn't have occurred, or succeeded, without
 some pretty questionable conduct on the part of the prosecutors. I
 collect a lot of details and quotes from relevant case law
-`here </legal docs/pcj-writeup.html>`__. This includes an Australian case I found,
+`here </legal docs/pcj-writeup>`__. This includes an Australian case I found,
 about perverting the course of justice by inducing a guilty plea, was
 said to be, at the time, the only such case in any Commonwealth court.
 
@@ -136,7 +136,7 @@ Another striking feature was the judge's prejudice against a "journalist
 in new media". I found a mass of stuff in support of such people and
 their role.
 
-So here is a `piece about these issues </legal_docs/cm-contempt.html>`__.
+So here is a `piece about these issues </legal_docs/cm-contempt>`__.
 
 
 Listing of Documents
@@ -146,6 +146,6 @@ Listing of Documents
 
 * `The postmasters criminal cases: perverting the course of justice? </legal docs/pcj-writeup.html>`__
 
-* `Craig Murray's contempt conviction </legal_docs/cm-contempt.html>`__.
+* `Craig Murray's contempt conviction </legal_docs/cm-contempt.htm>`__.
 
 `[Goto Top] <#top>`_
