@@ -49,7 +49,7 @@ find my experience of doing practical statistics was also relevant to
 the issue, in assessing the statistical evidence of the Post Office's
 expert witness. Fortunately the judge didn't think much of his analyses
 either. I write about that (with a few comments on other points)
-`here </legal_docs/worden-writeup.html>`__
+`here <../legal_docs/worden-writeup.html>`__
 
 UPDATE: When I wrote that piece I wasn't aware of `Stephen
 Mason <https://ials.sas.ac.uk/about/about-us/people/stephen-mason>`__'s
