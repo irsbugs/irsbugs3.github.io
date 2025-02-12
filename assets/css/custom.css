@@ -14,7 +14,7 @@ blockquote p, blockquote {
 Ian 2025-02-12 add logo, etc from WLUG website custom.css
 */
 
-
+/*
 Set the height of the logo...
 */
 #logo {
@@ -57,11 +57,11 @@ Set the height of the logo...
   background-color: #ff0000 !important;
 }
 
-
+/*
 .navbar {
   background-color: linear-gradient(90deg, #ff8a00 0%, #000000 100%) !important;
 }
-
+*/
 
 /* The background area around the navigation link test. */
 /*
