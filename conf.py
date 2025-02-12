@@ -1416,7 +1416,7 @@ USE_CDN = True
 # EXTRA_HEAD_DATA = ""
 #
 # Ian some more
-EXTRA_HEAD_DATA = "<!-- A comment -->"
+# EXTRA_HEAD_DATA = "<!-- A comment -->"
 
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
