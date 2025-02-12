@@ -288,7 +288,7 @@ NAVIGATION_ALT_LINKS = {
         ("/index.html", "Welcome"),
         ("/legal/", "Legal"),
         ("/legal1/", "Legal1"),        
-        ("/streisand/", "Streisand Effect"),  
+        ("/streisand/", "Streisand"),  
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
         ("/contact-us/", "Contact Us"),        
@@ -296,7 +296,8 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "bootblog4"
+#THEME = "bootblog4"
+THEME = "bootstrap4"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
