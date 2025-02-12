@@ -1200,12 +1200,13 @@ Set the height of the logo...
 */
 
 /* #4c828f # 386e7b 56,110,123, are darker versions of logo color 126,180,193 = 7eb4c1 */
+/* This should be green colour
 .navbar {
   background-color: #386e7b !important;
  
 }
+*/
 
-/*
 .navbar {
   background-color: #ff0000 !important;
 }
@@ -1214,7 +1215,7 @@ Set the height of the logo...
 .navbar {
   background-color: linear-gradient(90deg, #ff8a00 0%, #000000 100%) !important;
 }
-*/
+
 
 /* The background area around the navigation link test. */
 /*
