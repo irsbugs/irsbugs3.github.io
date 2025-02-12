@@ -493,6 +493,8 @@ COMPILERS = {
 # "TOML": TOML wrapped in "+++"
 # "Pelican": Native markdown metadata or reST docinfo fields. Nikola style for other formats.
 # METADATA_FORMAT = "Nikola"
+# Ian 2025-02-12
+METADATA_FORMAT = "Pelican"
 
 # Use date-based path when creating posts?
 # Can be enabled on a per-post basis with `nikola new_post -d`.
@@ -514,7 +516,7 @@ COMPILERS = {
 # The URL may be relative to the site root.
 # LOGO_URL = ''
 # Ian 2025-02-12 add logo Svg file 
-LOGO_URL = '/images/jeremy_logo.svg'
+LOGO_URL = '/images/jeremy-logo.svg'
 
 # When linking posts to social media, Nikola provides Open Graph metadata
 # which is used to show a nice preview. This includes an image preview
