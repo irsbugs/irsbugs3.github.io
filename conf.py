@@ -512,6 +512,8 @@ COMPILERS = {
 # Final output is <img src="LOGO_URL" id="logo" alt="BLOG_TITLE">.
 # The URL may be relative to the site root.
 # LOGO_URL = ''
+# Ian 2025-02-12 add logo Svg file 
+LOGO_URL = '/images/jeremy_logo.svg'
 
 # When linking posts to social media, Nikola provides Open Graph metadata
 # which is used to show a nice preview. This includes an image preview
