@@ -439,7 +439,9 @@ TIMEZONE = "Pacific/Auckland"
 #FILES_FOLDERS = {'files': 'files'}
 
 #Ian 2025-02-11 Getting custom css to work
-FILES_FOLDERS = {'files': 'files', 'themes/assets/css/': 'assets/css/'}
+#FILES_FOLDERS = {'files': 'files', 'themes/assets/css/': 'assets/css/'}
+# Ian 2025-02-12. Shouldn't need the above. The default should work if directory
+# structure is files/assete/css/custom.css
 
 # One or more folders containing code listings to be processed and published on
 # the site. The format is a dictionary of {source: relative destination}.
