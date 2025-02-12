@@ -1413,17 +1413,7 @@ USE_CDN = True
 # before </head>
 # (translatable)
 # EXTRA_HEAD_DATA = ""
-# Ian 2025-02-11
-'''
-EXTRA_HEAD_DATA = """blockquote {
-  display:inline;
-  background-color:#000;
-  margin-left: 20px;
-  padding-left: 20px;
-  text-indent: 20px;
-  color:#fff;
-}"""
-'''
+#
 # Ian some more
 EXTRA_HEAD_DATA = "<!-- A comment -->"
 
