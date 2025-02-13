@@ -6,7 +6,9 @@ This folder is named *streisand-docs*. It contains:
 
 * **streisand-docs.rst** - This is the document that is the introduction or overview of the Streisand Effect 
 documents that have been written.
+
 * **/streisand-docs/** - This is a folder. In this subfolder is where the writeup documents are placed.
+
 * **README.rst** - This file you are now reading.
 
 
@@ -47,13 +49,3 @@ In the text, a double-underscore suffix is used to indicate an anonymous hyperli
 target, the reference text is not repeated. This is useful for references with long text or throw-away references, but 
 the target should be kept close to the reference to prevent them going out of sync. 
 
-
-
-
-
-
-
-
-asda   AS AS as  AS AS
-
-asasd asd asd sa sad as dasd asd 
