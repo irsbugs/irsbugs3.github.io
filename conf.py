@@ -517,7 +517,7 @@ METADATA_FORMAT = "Pelican"
 # The URL may be relative to the site root.
 # LOGO_URL = ''
 # Ian 2025-02-12 add logo Svg file 
-LOGO_URL = '/images/jeremy-logo.svg'
+LOGO_URL = '/images/jeremy-logo'
 
 # When linking posts to social media, Nikola provides Open Graph metadata
 # which is used to show a nice preview. This includes an image preview
