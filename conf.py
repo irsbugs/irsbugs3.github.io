@@ -283,10 +283,12 @@ NAVIGATION_LINKS = {
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
+#         ("/legal/", "Legal"),
+
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        ("/legal/", "Legal"),
+        ("/legal-docs/introduction/", "Legal"),
         ("/legal1/", "Legal1"),        
         ("/streisand/", "Streisand"),  
         ("/feedback/", "Feedback"),
