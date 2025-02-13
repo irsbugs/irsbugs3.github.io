@@ -1,5 +1,5 @@
 .. title: Legal Introduction
-.. slug: legal
+.. slug: introduction
 .. date: 2025-02-13
 .. tags: 
 .. category: 
