@@ -4,19 +4,22 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>streisand | Jeremy's Writings</title>
+<title>streisand-docs | Jeremy's Writings</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" integrity="sha256-cLMYWYYutHkt+KpNqjg7NVkYSQ+E2VbrXsEvOqU7mL0=" crossorigin="anonymous">
 <link href="../../assets/css/all.css" rel="stylesheet" type="text/css">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://irsbugs.github.io/streisand-docs/streisand/">
+<link rel="canonical" href="https://irsbugs.github.io/streisand-docs/streisand-docs/">
 <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta name="author" content="Jeremy Dawson">
 <meta property="og:site_name" content="Jeremy's Writings">
-<meta property="og:title" content="streisand">
-<meta property="og:url" content="https://irsbugs.github.io/streisand-docs/streisand/">
-<meta property="og:description" content="This is the file the link shouyld go to">
+<meta property="og:title" content="streisand-docs">
+<meta property="og:url" content="https://irsbugs.github.io/streisand-docs/streisand-docs/">
+<meta property="og:description" content="Documents on Streisand Effect written by Jeremy Dawson.
+This folder is named streisand-docs. It contains:
+
+streisand-docs.rst - This is the document that is the introduction or overview of the Streisa">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2025-02-13T18:56:06+13:00">
 </head>
@@ -45,8 +48,8 @@ bg-dark
 <li class="nav-item">
 <a href="../../legal-docs/legal-docs/" class="nav-link">Legal</a>
                 </li>
-<li class="nav-item">
-<a href="../streisand-docs/" class="nav-link">Streisand Effect</a>
+<li class="nav-item active">
+<a href="." class="nav-link">Streisand Effect <span class="sr-only">(active)</span></a>
                 </li>
 <li class="nav-item">
 <a href="../../feedback/" class="nav-link">Feedback</a>
@@ -72,13 +75,53 @@ bg-dark
         
         
         
-<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">streisand</a></h1>
+<article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">streisand-docs</a></h1>
 
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <p>This is the file the link shouyld go to</p>
-    </div>
+    <section id="documents-on-streisand-effect-written-by-jeremy-dawson"><h2>Documents on Streisand Effect written by Jeremy Dawson.</h2>
+<p>This folder is named <em>streisand-docs</em>. It contains:</p>
+<ul class="simple">
+<li><p><strong>streisand-docs.rst</strong> - This is the document that is the introduction or overview of the Streisand Effect</p></li>
+</ul>
+<aside class="system-message"><p class="system-message-title">System Message: WARNING/2 (<span class="docutils literal">&lt;string&gt;</span>, line 8)</p>
+<p>Bullet list ends without a blank line; unexpected unindent.</p>
+</aside><p>documents that have been written.
+* <strong>/streisand-docs/</strong> - This is a folder. In this subfolder is where the writeup documents are placed.
+* <strong>README.rst</strong> - This file you are now reading.</p>
+<p>In the <em>conf.py</em> file the variable <em>NAVIGATION_ALT_LINKS</em> entry for <em>streisand-docs.rst</em>:</p>
+<blockquote>
+<p><code class="docutils literal"><span class="pre">`("/streisand-docs/streisand-docs/",</span> <span class="pre">"Streisand"),`</span></code></p>
+</blockquote>
+<p>The top level directory in Github <em>src</em> contains the <em>pages</em> folder which contains the <em>streisand-docs</em> folder,
+which has the file <em>streisand-docs.rst</em> and the folder <em>streisand-docs</em>.</p>
+<p>When Gihub uses the <em>.github/workflows/main.yaml</em> the website the <em>streisand-docs.rst</em> file in <em>main</em> becomes
+<em>/streisand-docs/streisand-docs/index.html</em></p>
+<p>On a browser the <em>streisand-docs.rst</em> file has the address:</p>
+<blockquote>
+<p><code class="docutils literal"><span class="pre">`https://xxxxxx.github.io/streisand-docs/streisand-docs/index.html`</span></code></p>
+</blockquote>
+<p>The file <em>streisand-docs.rst</em> is the introductory or overview page for the legal documents and provides the
+links to these documents that are located in the <em>streisand-docs sub-folder</em>.</p>
+<p>When adding new legal documents to the website, place them in <em>src</em> in the folder <em>/streisand-docs/streisand-docs/</em>.
+If they are in <em>.rst</em> or <em>.md</em> format, then, upon making a github commit, they will be converted to <em>.html</em> files.
+When linking to the documents from <em>streisand-docs.rst</em> the linking syntax as follows:</p>
+<blockquote>
+<p>To read the new document click `here &lt;new-document&gt;`_</p>
+</blockquote>
+<p>Which will display on the webpage as:</p>
+<blockquote>
+<p>To read the new document click <a class="reference external" href="new-document">here</a></p>
+</blockquote>
+<section id="note-on-anonymous-hyperlink-target"><h3>Note on anonymous hyperlink target.</h3>
+<p>In the text, a double-underscore suffix is used to indicate an anonymous hyperlink reference. In an anonymous
+hyperlink target, the reference text is not repeated. This is useful for references with long text or throw-away
+references, but the target should be kept close to the reference to prevent them going out of sync.</p>
+<p>asdsasad assdasda
+as as as a s as as assd  sdas</p>
+</section></section>
+</div>
     
 
 </article><!--End of body content--><footer id="footer">
