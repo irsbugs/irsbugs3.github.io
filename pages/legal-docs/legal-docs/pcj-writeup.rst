@@ -8,6 +8,8 @@
 .. type: text
 .. hidetitle: True
 
+.. _top:
+
 The postmasters criminal cases: perverting the course of justice?
 =================================================================
 
@@ -321,4 +323,4 @@ clear something was wrong, as when
 -  discrepancies doubling when subpostmasters followed helpline
    instructions
 
-..
+`[Goto Top] <#top>`_
