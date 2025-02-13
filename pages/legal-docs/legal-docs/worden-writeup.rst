@@ -8,6 +8,7 @@
 .. type: text
 .. hidetitle: True
 
+.. _top:
 
 The statistical evidence in the postmasters: Bates (Horizon Issues) trial
 =========================================================================
@@ -15,11 +16,13 @@ The statistical evidence in the postmasters: Bates (Horizon Issues) trial
 by Jeremy Dawson
 ----------------
 
-| The judgment in the Bates (Horizon Issues) trial is at
+* The judgment in the Bates (Horizon Issues) trial is at
   https://www.bailii.org/ew/cases/EWHC/QB/2019/3408.html.
-| Dr Worden's first report (07 December 2018) to which I refer is at
+
+* Dr Worden's first report (07 December 2018) to which I refer is at
   https://www.postofficetrial.com/2019/06/horizon-trial-post-office-independent.html.
-| For Nick Wallis's book, The Great Post Office Scandal, see
+
+* For Nick Wallis's book, The Great Post Office Scandal, see
   https://bathpublishing.com/products/the-great-post-office-scandal-first.
 
 Dr Robert Worden's evidence
@@ -395,3 +398,5 @@ Possibly the error was triggered by unusual or idiosyncratic human
 input. Or possibly human error, not caught by the computer-based
 accounting system. Who knows? And, in the context of prosecuting people
 on account of such errors, so what?
+
+`[Goto Top] <#top>`_
