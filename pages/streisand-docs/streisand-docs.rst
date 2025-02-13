@@ -57,7 +57,7 @@ Why now?
 
 Well, I've had this idea for some time, was spurred on to action when
 one day I got several emails with articles about the police action
-against `Asa Winstanley <./asa-winstanley.html>`__. So he is the first
+against `Asa Winstanley <./asa-winstanley>`__. So he is the first
 writer whose work I want to support and publicise.
 
 Note re internet archives
@@ -109,7 +109,7 @@ Particular cases or categories
 Asa Winstanley
 ~~~~~~~~~~~~~~
 
-Read more `here <./asa-winstanley.html>`__
+Read more `here <./asa-winstanley>`__
 
 . Writer about Palestine etc, investigated for terrorism, involving a
 dawn police raid on his home, and confiscation of his electronic
@@ -121,7 +121,7 @@ Other UK police actions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 These keep on happening, challenging my capacity to keep up with them.
-See `separate article here <./uk-police.html>`__. I've also written an
+See `separate article here <./uk-police>`__. I've also written an
 `article about the legislation underlying a lot of the
 actions <./terrorism.html>`__.
 
@@ -130,7 +130,7 @@ Other government actions
 
 Common examples are expulsion from a country (or eg cancelling visas),
 arrests of journalists etc. See `this article
-here <./other-govt.html>`__.
+here <./other-govt>`__.
 
 Social media censorship
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -150,7 +150,7 @@ do this without the public knowing that's what is happening.
 Anyhow, my purpose here is to encourage you to read/view material which
 the social media platforms don't want you to see on account of the
 political outlook expressed. See `this article
-here <./social-media.html>`__.
+here <./social-media>`__.
 
 Germany - the Palestine Congress
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -159,4 +159,6 @@ German police shut down the Palestine Congress in Berlin: they arrested
 several attendees, banned a proposed speaker (the rector of the
 University of Glasgow) from entering the country and (allegedly) banned
 another speaker (formerly Greece's Minister of Finance) from speaking
-there. See `this article here <./palestine-congress.html>`__.
+there. See `this article here <./palestine-congress>`__.
+
+`Terrorism <./terrorism>`__
