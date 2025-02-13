@@ -13,7 +13,8 @@
 About Jeremy Dawson
 ===================
 
-Jeremy lives in Australia
+Jeremy lives in Australia.
 
 
-`[Goto Top] <#top>`
+End of Document
+`[Goto Top] <#top>`_
