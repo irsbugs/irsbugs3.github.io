@@ -147,8 +147,8 @@ Listing of Documents
 
 * `The statistical evidence in the postmasters: Bates (Horizon Issues) trial <worden-writeup>`_
 
-* `The postmasters criminal cases: perverting the course of justice? <pcj-writeup>`_
+* `The postmasters criminal cases: perverting the course of justice? <pcj-writeup>`__
 
-* `Craig Murray's contempt conviction <cm-contempt>`_
+* `Craig Murray's contempt conviction <cm-contezxmpt>`__
 
 `[Goto Top] <#top>`_
