@@ -113,6 +113,7 @@ DEFAULT_LANG = "en"
 # the path will be used as a prefix for the generated pages location
 # Provide Support for Maori. mi. Ian 2021-01-20
 '''
+# Ian  2025-02-09- No Translatioons - removed Maori
 TRANSLATIONS = {
     DEFAULT_LANG: "en",
     "mi": "./mi",
@@ -120,14 +121,6 @@ TRANSLATIONS = {
     # "es": "./es",
 }
 '''
-# Ian - remove Maori 20025-02-09
-'''
-TRANSLATIONS = {
-    DEFAULT_LANG: "",
-    "mi": "./mi",
-}
-'''
-
 # What will translated input files be named like?
 
 # If you have a page something.rst, then something.pl.rst will be considered
@@ -164,107 +157,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          else they won’t be highlighted when active.
 
 '''
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
-}
-
-
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/index.html", "Welcome"),
-        ("/house/", "The House"),
-        ("/services/", "Services"),
-        ("/wassup-fairfield/", "Wassup Fairfield"),
-        ("/projects/", "Projects"),
-        ("/our-people", "Our People"),
-        ("/community-directory", "Community Directory"),
-        ("/galleries/posters/", "Noticeboard"),
-        ("/contact-us/", "Contact Us"),
-        ("/calendar/", "Calendar"),
-        (
-            (
-                ('/bookings/', 'Booking Information'),
-                ('/fairfield-hall/', 'Fairfield Hall'),
-                ('/driver-licensing/', 'Driver Licensing'),
-            ),
-            'Bookings'
-        ),
-        ("/test/", "Testing"),
-    ),
-    "mi": (
-        ("/mi/index.html", "Kia Ora"),
-        ("/mi/house/", "Te Whare"),
-        ("/mi/services/", "Ngaa Mahi"),
-        ("/mi/wassup-fairfield/", "Koorero a Waerea"),
-        ("/mi/projects/", "Ngaa Tuuranga"),
-        ("/mi/our-people", "He tangata"),
-        ("/mi/community-directory", "Haapori"),
-        ("/mi/galleries/posters/", "Papa Paanui"),
-        ("/mi/contact-us/", "Whakapa Mai"),
-        ("/mi/calendar/", "Ra taka"),
-        (
-            (
-                ('/mi/bookings/', 'Tono'),
-                ('/mi/fairfield-hall/', 'Fairfield Hall'),
-                ('/mi/driver-licensing/', 'Driver Licensing'),
-            ),
-            'Tono'
-        ),
-        ("/mi/test/", "Maori Testing"),
-    ),
-}
-'''
-'''
-# Ian Comment out 2025-02-09 then put back in
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/index.html", "Welcome"),
-        ("/events/", "Events"),
-        ("/feedback/", "Feedback"),
-        ("/download/", "Download"),
-        ("/contact-us/", "Contact Us"),
-    ),
-    "mi": (
-        ("/mi/index.html", "Kia Ora"),
-        ("/mi/events/", "Ngā kaupapa"),
-        ("/mi/feedback/", "Urupare"),
-        ("/mi/download/", "Tongohia"),
-        ("/mi/contact-us/", "Whakapa Mai"),
-    ),
-}
-
-'''
-'''
-# Ian 2025-02-09 tried to have a folder off pages called legal
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/index.html", "Welcome"),
-        ("/legal1/", "Legal1"),
-        (
-            (
-                ('/legal/', 'Legal Overview of Documents'),
-                ('/legal/terrorists/', 'Terrorists'),
-                ('/step2/', '2. Nikola Installation'),
-                ('/step3/', '3. Creating a Website'),
-                ('/step4/', '4. Website Tailoring'),
-                ('/step5/', '5. ReST Editor'),
-            ),
-            '<strong>Legal</strong>'
-        ),        
-        ("/events/", "Events"),
-        ("/feedback/", "Feedback"),
-        ("/download/", "Download"),
-        ("/contact-us/", "Contact Us"),
-    ),
-}
-'''
-
-'''
-# Ian 2025-02-09 Cant get the legal directory recognised.
+# Ian 2025-02-09 Not used. NAVIGATION_ALT_LINKS has better placement of Navigstiopn buttons
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
@@ -278,8 +171,6 @@ NAVIGATION_LINKS = {
 }
 '''
 
-
-
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
@@ -290,6 +181,8 @@ NAVIGATION_ALT_LINKS = {
         ("/index.html", "Welcome"),
         ("/legal-docs/legal-docs/", "Legal"),        
         ("/streisand-docs/streisand-docs/", "Streisand effect"),  
+        ("about", "About"),
+        ("demo", "Demo"),
         ("/feedback/", "Feedback"),
         ("/download/", "Download"),
         ("/contact-us/", "Contact Us"),        
