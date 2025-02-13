@@ -1,10 +1,10 @@
 .. title: Legal Introduction
-.. slug: legal
+.. slug: legal-docs
 .. date: 2025-02-13
 .. tags: 
 .. category: 
 .. link: 
-.. description: Introduction to Legal and Political Writings
+.. description: Introduction to Legal and Political Writings in sub-directory /legal-docs/.
 .. type: text
 .. hidetitle: True
 
