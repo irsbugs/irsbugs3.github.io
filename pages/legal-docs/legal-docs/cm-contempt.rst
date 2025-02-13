@@ -8,6 +8,7 @@
 .. type: text
 .. hidetitle: True
 
+.. _top:
 
 Craig Murray's contempt conviction
 ==================================
@@ -797,4 +798,4 @@ para 5,
    the principle of strict liability (i.e. the necessity to prove only
    the intent to publish but not the intent to blaspheme)
 
-`Back <#lfn1>`__
+`[Goto Top] <#top>`_
