@@ -86,7 +86,7 @@ Perverting the course of justice?
 A lot of the prosecutions wouldn't have occurred, or succeeded, without
 some pretty questionable conduct on the part of the prosecutors. I
 collect a lot of details and quotes from relevant case law
-`here <pcj-writeup>`_. This includes an Australian case I found,
+`here. <pcj-writeup>`_ This includes an Australian case I found,
 about perverting the course of justice by inducing a guilty plea, was
 said to be, at the time, the only such case in any Commonwealth court.
 
