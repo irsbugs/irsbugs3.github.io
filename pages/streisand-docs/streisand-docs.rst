@@ -1,3 +1,15 @@
+.. title: Streisand Effect Introduction
+.. slug: streisand-docs
+.. date: 2025-02-13
+.. tags: 
+.. category: 
+.. link: 
+.. description: Introduction to Streisand Effects Writings
+.. type: text
+.. hidetitle: True
+
+.. _top:
+
 The Streisand Effect
 ====================
 
@@ -162,3 +174,5 @@ another speaker (formerly Greece's Minister of Finance) from speaking
 there. See `this article here <./palestine-congress>`__.
 
 `Terrorism <./terrorism>`__
+
+`[Goto Top] <#top>`_
