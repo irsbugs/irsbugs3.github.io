@@ -11,15 +11,15 @@
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS" hreflang="en" href="../../rss.xml">
-<link rel="canonical" href="https://irsbugs.github.io/legal-docs/readme/">
+<link rel="canonical" href="https://irsbugs.github.io/streisand/readme/">
 <!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><meta name="author" content="Jeremy Dawson">
 <meta property="og:site_name" content="Jeremy's Writings">
 <meta property="og:title" content="README">
-<meta property="og:url" content="https://irsbugs.github.io/legal-docs/readme/">
-<meta property="og:description" content="Documents on legal and political written by Jeremy Dawson.
-This folder is named legal-docs. It contains:
+<meta property="og:url" content="https://irsbugs.github.io/streisand/readme/">
+<meta property="og:description" content="Documents on Streisand Effect written by Jeremy Dawson.
+This folder is named streisand-docs. It contains:
 
-legal-docs.rst - This is the document that is the introduction or overview of the legal and po">
+streisand-docs.rst - This is the document that is the introduction or overview of the Streisa">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2025-02-13T18:13:37+13:00">
 </head>
@@ -46,7 +46,7 @@ bg-dark
 <a href="../../index.html" class="nav-link">Welcome</a>
                 </li>
 <li class="nav-item">
-<a href="../legal-docs/" class="nav-link">Legal</a>
+<a href="../../legal-docs/legal-docs/" class="nav-link">Legal</a>
                 </li>
 <li class="nav-item">
 <a href="../../streisand-docs/streisand-docs/" class="nav-link">Streisand Effect</a>
@@ -80,25 +80,30 @@ bg-dark
         
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
-    <section id="documents-on-legal-and-political-written-by-jeremy-dawson"><h2>Documents on legal and political written by Jeremy Dawson.</h2>
-<p>This folder is named <em>legal-docs</em>. It contains:</p>
+    <section id="documents-on-streisand-effect-written-by-jeremy-dawson"><h2>Documents on Streisand Effect written by Jeremy Dawson.</h2>
+<p>This folder is named <em>streisand-docs</em>. It contains:</p>
 <ul class="simple">
-<li><p><strong>legal-docs.rst</strong> - This is the document that is the introduction or overview of the legal and political documents that have been written.</p></li>
-<li><p><strong>/legal-docs/</strong> - This is a folder. In this subfolder is where the writeup documents are placed.</p></li>
+<li><p><strong>streisand-docs.rst</strong> - This is the document that is the introduction or overview of the Streisand Effect documents that have been written.</p></li>
+<li><p><strong>/streisand-docs/</strong> - This is a folder. In this subfolder is where the writeup documents are placed.</p></li>
 <li><p><strong>README.rst</strong> - This file you are now reading.</p></li>
 </ul>
-<p>In the <em>conf.py</em> file the variable <em>NAVIGATION_ALT_LINKS</em> entry for <em>legal_docs.rst</em>:</p>
+<p>In the <em>conf.py</em> file the variable <em>NAVIGATION_ALT_LINKS</em> entry for <em>streisand-docs.rst</em>:</p>
 <blockquote>
-<p><code class="docutils literal"><span class="pre">`("/legal-docs/legal-docs/",</span> <span class="pre">"Legal"),`</span></code></p>
+<p><code class="docutils literal"><span class="pre">`("/streisand-docs/streisand-docs/",</span> "Streisand <span class="pre">Effect"),`</span></code></p>
 </blockquote>
-<p>The top level directory in Github <em>src</em> contains the <em>pages</em> folder which contains the <em>legal_docs</em> folder, which has the file <em>legal-docs.rst</em> and the folder <em>legal_docs</em>.</p>
-<p>When Gihub uses the <em>.github/workflows/main.yaml</em> the website the <em>legal-docs.rst</em> file in <em>main</em> becomes <em>/legal-docs/legal-docs/index.html</em></p>
-<p>On a browser the <em>legal-docs.rst</em> file has the address:</p>
+<p>The top level directory in Github <em>src</em> contains the <em>pages</em> folder which contains the <em>streisand-docs</em> folder,
+which has the file <em>streisand-docs.rst</em> and the folder <em>streisand-docs</em>.</p>
+<p>When Gihub uses the <em>.github/workflows/main.yaml</em> the website the <em>streisand-docs.rst</em> file in <em>main</em>
+becomes <em>/streisand-docs/streisand-docs/index.html</em></p>
+<p>On a browser the <em>streisand-docs.rst</em> file has the address:</p>
 <blockquote>
-<p><code class="docutils literal"><span class="pre">`https://xxxxxx.github.io/legal-docs/legal-docs/index.html`</span></code></p>
+<p><code class="docutils literal"><span class="pre">`https://xxxxxx.github.io/streisand-docs/streisand-docs/index.html`</span></code></p>
 </blockquote>
-<p>The file <em>legal_docs.rst</em> is the introductory or overview page for the legal documents and provides the links to these documents that are located in the <em>legal-docs sub-folder</em>.</p>
-<p>When adding new legal documents to the website, place them in <em>src</em> in the folder <em>/legal-docs/legal-docs/</em>. If they are in <em>.rst</em> or <em>.md</em> format, then, upon making a github commit, they will be converted to <em>.html</em> files. When linking to the documents from <em>legal-docs.rst</em> the linking syntax as follows:</p>
+<p>The file <em>streisand-docs.rst</em> is the introductory or overview page for the legal documents and provides the
+links to these documents that are located in the <em>streisand-docs sub-folder</em>.</p>
+<p>When adding new legal documents to the website, place them in <em>src</em> in the folder <em>/streisand-docs/streisand-docs/</em>.
+If they are in <em>.rst</em> or <em>.md</em> format, then, upon making a github commit, they will be converted to <em>.html</em> files.
+When linking to the documents from <em>streisand-docs.rst</em> the linking syntax as follows:</p>
 <blockquote>
 <p>To read the new document click `here &lt;new-document&gt;`_</p>
 </blockquote>
@@ -107,7 +112,10 @@ bg-dark
 <p>To read the new document click <a class="reference external" href="new-document">here</a></p>
 </blockquote>
 <section id="note-on-anonymous-hyperlink-target"><h3>Note on anonymous hyperlink target.</h3>
-<p>In the text, a double-underscore suffix is used to indicate an anonymous hyperlink reference. In an anonymous hyperlink target, the reference text is not repeated. This is useful for references with long text or throw-away references, but the target should be kept close to the reference to prevent them going out of sync.</p>
+<p>In the text, a double-underscore suffix is used to indicate an anonymous hyperlink reference. In an anonymous
+hyperlink target, the reference text is not repeated. This is useful for references with long text or throw-away
+references, but the target should be kept close to the reference to prevent them going out of sync.</p>
+<p>Thius is some test</p>
 </section></section>
 </div>
     
