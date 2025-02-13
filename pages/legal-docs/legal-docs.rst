@@ -136,16 +136,16 @@ Another striking feature was the judge's prejudice against a "journalist
 in new media". I found a mass of stuff in support of such people and
 their role.
 
-So here is a `piece about these issues </legal-docs/cm-contempt.html>`__.
+So here is a `piece about these issues <./cm-contempt>`__.
 
 
 Listing of Documents
 --------------------
 
-* `The statistical evidence in the postmasters: Bates (Horizon Issues) trial <..worden-writeup.html>`_
+* `The statistical evidence in the postmasters: Bates (Horizon Issues) trial <..worden-writeup>`_
 
-* `The postmasters criminal cases: perverting the course of justice? <../pcj-writeup.html>`_
+* `The postmasters criminal cases: perverting the course of justice? <pcj-writeup>`_
 
-* `Craig Murray's contempt conviction </legal_docs/cm-contempt.html>`_
+* `Craig Murray's contempt conviction </legal_docs/legal_docs/cm-contempt>`_
 
 `[Goto Top] <#top>`_
