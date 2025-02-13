@@ -333,8 +333,8 @@ TIMEZONE = "Pacific/Auckland"
 # Which means copy 'files' into 'output'
 #FILES_FOLDERS = {'files': 'files'}
 
-#Ian 2025-02-11 Getting custom css to work
-#FILES_FOLDERS = {'files': 'files', 'themes/assets/css/': 'assets/css/'}
+#Ian 2025-02-11 Getting custom css to work and other files in files to files
+FILES_FOLDERS = {'files': 'files', 'themes/assets/css/': 'assets/css/'}
 # Ian 2025-02-12. Shouldn't need the above. The default should work if directory
 # structure is files/assete/css/custom.css
 
