@@ -70,6 +70,8 @@ Please provide the following information
         
     </form> 
 
+|
+|
 
 Downloading Files
 =================
@@ -103,21 +105,31 @@ Click to download a pdf file...
     </a>
     </p>
   
+|
+|
 
 Adding an Image to a document using reST
 ========================================
 
 The reST code is: \.\. image:: /images/my_picture.jpg
-  Other externsions may be used. E.g. .png
+Other externsions may be used. E.g. *.png*
+
+The custom css file is in *src* folder */files/assets/css/custom.css*
+Code in this file could set the size of the image.
   
-Here is a picture of Julian Assange
+Here is a picture of Julian Assange it was
   
-.. image:: /images/test_image.png
+.. image:: /images/julian_assange.jpg
        :width: 100
        :alt: Blind people. This is a photo of Julian
        :align: left
 
-Julian is no longer in prison.
-  
+|
+|
+
+Julian is no longer in prison in the UK. This text may look strange.
+
+|  
+|
 
 `[Goto Top] <#top>`_
