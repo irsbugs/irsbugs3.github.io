@@ -996,8 +996,8 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 # Ian 2025-02-15 add JD icons.
 FAVICONS = (
-     ("icon", "/image/favicon-16x16.png", "16x16"),
-     ("icon", "/image/favicon-32x32.png", "128x128"),
+     ("icon", "/images/favicon-16x16.png", "16x16"),
+     ("icon", "/images/favicon-32x32.png", "128x128"),
  )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
