@@ -1,4 +1,5 @@
-## This is to support Jeremy's already published links.
+This is to support Jeremy's already published links.
+----------------------------------------------------
 
 This directory has html files that support already published links.
 
