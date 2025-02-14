@@ -15,6 +15,6 @@ Welcome
 
 Website of Jeremy Dawson.
 
-..comment: Is this a one line comment for a programmer to see?
+.. comment: Is this a one line comment for a programmer to see?
 
 `[Goto Top] <#top>`_
