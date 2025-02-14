@@ -177,13 +177,13 @@ there. See `this article here <./palestine-congress>`__.
 Listing of Documents
 --------------------
 
-`Asa Winstanley <./asa-winstanley>`__
-`Other Governments <./other-govt>`__
-`Palesting Congress <./palestine-congress>`__
-`Palestine Congress Notes <./palestine-congress-notes>`__
-`Social Media <./social-media>`__
-`Terrorism <./terrorism>`__
-`UK Police <./uk-police>`__
+* `Asa Winstanley <./asa-winstanley>`__
+* `Other Governments <./other-govt>`__
+* `Palesting Congress <./palestine-congress>`__
+* `Palestine Congress Notes <./palestine-congress-notes>`__
+* `Social Media <./social-media>`__
+* `Terrorism <./terrorism>`__
+* `UK Police <./uk-police>`__
 
 
 `[Goto Top] <#top>`_
