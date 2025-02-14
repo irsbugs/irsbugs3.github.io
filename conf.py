@@ -157,7 +157,7 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          else they won’t be highlighted when active.
 
 '''
-# Ian 2025-02-09 Not used. NAVIGATION_ALT_LINKS has better placement of Navigstiopn buttons
+# Ian 2025-02-09 Not used. NAVIGATION_ALT_LINKS has better placement of Navigstion buttons
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
@@ -182,10 +182,7 @@ NAVIGATION_ALT_LINKS = {
         ("/legal-docs/legal-docs/", "Legal"),        
         ("/streisand-docs/streisand-docs/", "Streisand effect"),  
         ("/about/", "About"),
-        ("/demo/", "Demo"),
-        ("/feedback/", "Feedback"),
-        ("/download/", "Download"),
-        ("/contact-us/", "Contact Us"),        
+        ("/demo/", "Demo"),       
     )
 }
 
@@ -1020,6 +1017,7 @@ FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_re
 # "utm_source={feedRelUri}&utm_medium=nikola_feed&utm_campaign={feedFormat}_feed"
 FEED_LINKS_APPEND_QUERY = False
 
+'''
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
 LICENSE = ""
@@ -1035,6 +1033,31 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
+'''
+# Ian 2025-02-13 - Add a license in the footer
+#LICENSE = ""
+# I recommend using the Creative Commons' wizard:
+# https://creativecommons.org/choose/
+LICENSE = """
+ <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+ <img alt="Creative Commons License BY-NC-SA"
+ style="float: right; margin: 0px 0px 5px 5px; border-width:0;"
+ src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+# Changed from style="border-width:0; margin-bottom:12px;"
+#
+# A small copyright notice for the page footer (in HTML).
+# (translatable)
+# Edited by Ian 2022-08-26
+#CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a #href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+# Ian 2022-08-26 - Place in BODY_END - didn't work no {variables}
+# Ian 2022-08-31 - Add version to footer.
+# Ian 2023-03-20 - Change Footer soe no version info for Nikola or Python
+#CONTENT_FOOTER = 'WLUG &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
+CONTENT_FOOTER = 'WLUG &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
+
+
+
+
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
 # intelligently format the setting properly.
@@ -1048,6 +1071,7 @@ CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{autho
 #          still needs to be a dict of this format.  (it can be empty if you
 #          do not need formatting)
 # (translatable)
+'''
 CONTENT_FOOTER_FORMATS = {
     DEFAULT_LANG: (
         (),
@@ -1059,6 +1083,23 @@ CONTENT_FOOTER_FORMATS = {
         }
     )
 }
+'''
+# ian 2022-08-31 - Add "version": NIKOLA_VERSION for the footer. Can see what version github uses
+CONTENT_FOOTER_FORMATS = {
+    DEFAULT_LANG: (
+        (),
+        {
+            "email": BLOG_EMAIL,
+            "author": BLOG_AUTHOR,
+            "date": time.gmtime().tm_year,
+            "license": LICENSE,
+            "nikola_version": NIKOLA_VERSION,
+            "python_version": PYTHON_VERSION,            
+        }
+    )
+}
+
+
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
