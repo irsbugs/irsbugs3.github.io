@@ -939,20 +939,14 @@ blockquote p, blockquote {
 }
 
 /*
-Ian 2025-02-12 add logo, etc from WLUG website custom.css
-*/
+Ian 2025-02-12 add logo, etc. From WLUG website custom.css
 
-/*
 Set the height of the logo...
 */
-/*
 #logo {
     height: 50px;
 }
-*/
-#logo {
-    height: 50px;
-}
+
 /*
 .navbar-default .navbar-nav>.active>a:before,
 .navbar-nav>li>a:before {
@@ -1006,6 +1000,7 @@ Set the height of the logo...
 b8f0fd = 184 240 253 a lighter version of 126,180,183*/
 .nav-link, .dropdown-item {
     color: #b8f0fd !important;
+    background-color: #386e7b !important;
     font-size: 120%;
 }
 
