@@ -1,14 +1,20 @@
-.. title: Home
+.. title: Home Page
 .. slug: index
-.. date: 2021-01-20 17:22:21 UTC+13:00
+.. date: 2025-02-14
 .. tags: 
 .. category: 
 .. link: 
-.. description: English ~ Home / Welcome page for Te Papanui Enderley Community.
+.. description: Home page for Website.
 .. type: text
 .. hidetitle: True
+
+.. _top:
 
 Welcome
 =======
 
-Streisand Effect website.
+Website of Jeremy Dawson.
+
+..comment: Is this a one line comment for a programmer to see?
+
+`[Goto Top] <#top>`_
