@@ -399,4 +399,13 @@ input. Or possibly human error, not caught by the computer-based
 accounting system. Who knows? And, in the context of prosecuting people
 on account of such errors, so what?
 
+Here is a picture of Julian Assange... 
+  
+.. image:: /images/julian_assange.jpg
+       :width: 100
+       :alt: Blind people. This is a photo of Julian
+       :align: left
+
+|
+
 `[Goto Top] <#top>`_
