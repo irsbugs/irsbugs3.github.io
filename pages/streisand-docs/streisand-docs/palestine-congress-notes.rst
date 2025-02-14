@@ -97,7 +97,7 @@
 
 * https://en.wikipedia.org/wiki/Yanis_Varoufakis
 
-   "abhorrence of the conservative turn of the land Down Under"
+"abhorrence of the conservative turn of the land Down Under"
 
 * https://diem25.org/yanis-varoufakis-sues-the-german-state/
 * https://diem25.org/yanis-varoufakis-ban-will-the-authoritarianism-of-the-german-government-prevail/
