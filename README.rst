@@ -1,11 +1,12 @@
 Information
 -----------
 
-Tree of the source directory and its sub-directories and files. As of 2025-02-14.
 
-src                                           <-- Dir Source Code directory. Only edit files below. Do not edit files in "main" 
-├── .github/workflows                         <-- Dir
-│   └── main.yml                              <-- Yaml command file for Github to run Nikola and re-build the website.
+>Tree of the source directory and its sub-directories and files. As of 2025-02-14.
+
+> src                                           <-- Dir Source Code directory. Only edit files below. Do not edit files in "main" 
+> ├── .github/workflows                         <-- Dir
+> │   └── main.yml                              <-- Yaml command file for Github to run Nikola and re-build the website.
 │
 ├── files                                     <-- Dir
 │   ├── assets/css                            <-- Dir
