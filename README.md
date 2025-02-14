@@ -32,6 +32,8 @@ src                                           <-- Dir Source Code top level bran
 │       └── test.pdf                          <-- Used by development to test Demo's download works OK.
 │
 ├── images                                    <-- Dir
+│   ├── favicon-16x16.png                     <-- Icon to insert in the web-browser tab
+│   ├── favicon-32x32.png                     <-- 
 │   ├── jd-logo.svg                           <-- An svg file that contains the logo. Custom.css sets logo height.
 │   └── julian_assange.jpg                    <-- Example picture used by Demo.
 │
