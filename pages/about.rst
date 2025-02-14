@@ -10,6 +10,8 @@
 
 .. _top:
 
+.. comment: Many links fixed. Need checking. 2025-02-14
+
 Jeremy Dawson
 =============
 
@@ -32,6 +34,7 @@ ANU `here <http://users.cecs.anu.edu.au/~jeremy/index.html>`__
 --------------------------------------------------------------------------------------
 
 | **Email:**   firstname-surname at gmx.com
+|
 
 Retirement
 ----------
@@ -42,7 +45,7 @@ In retirement I've been doing more of a variety of things, including
 
 -  reverting to my earlier interest in the law, including being rather
    outspoken about legal issues and cases that attract my interest, see
-   further `here <legal/>`__
+   further `here <legal-docs/legal-docs/>`__
 
 Employment (1998-2021)
 ----------------------
@@ -68,31 +71,31 @@ cut-elimination theorem. In the course of work on a stronger result, the
 strong normalization property of the set of proof reductions used in
 cut-elimination, we discovered that the published proof of this omits a
 case, requiring a largely new proof, which we have now completed. The
-Isabelle files are `here <isabelle/2005/fdeep/>`__.
+Isabelle files are `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fdeep/>`__.
 
 We then realized that this proof can be translated into the context of
 general term-rewriting theory, and have accordingly derived theorems on
 termination of term-rewriting. The Isabelle files are
-`here <isabelle/2005/snabs/>`__.
+`here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/snabs/>`__.
 
 Topics I have worked on more recently have included
 
 -  proving in Isabelle a version of Craig's interpolation theorem for
    Display Calculi, based on work of James Brotherston and Rajeev Goré.
-   The Isabelle files are `here <isabelle/2005/interp/>`__
+   The Isabelle files are `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/interp/>`__
 
 -  formalising in Isabelle some aspects of a claimed (and later
    contradicted) proof of decidability of ticket entailment. The
-   Isabelle files are `here <isabelle/2005/bimbo-dunn/>`__
+   Isabelle files are `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/bimbo-dunn/>`__
 
 -  formalising in Isabelle results of Nachum Dershowitz about
    well-founded unions of well-founded relations. The Isabelle files are
-   `here <isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
+   `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
 
 -  formalising in Isabelle results on proof systems for Full
    Intuitionistic Linear Logic, based on work with Alwen Tiu, Ranald
    Clouston and Rajeev Goré. The Isabelle files are
-   `here <isabelle/2005/seqms/>`__
+   `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/seqms/>`__
 
 -  formalising in HOL4 a dual tableaux calculus of Melvin Fitting for
    intuitionistic logic. The HOL4 files are `here <hol/idt/hol>`__
@@ -188,7 +191,7 @@ Journals and Refereed Conferences
 -  Jeremy Dawson, Nachum Dershowitz, Rajeev Goré, `Well-Founded
    Unions <isabelle/2005/gen/tripartite-paper/from_nd>`__, In: Automated
    Reasoning (IJCAR 2018), Oxford, LNCS/LNAI 10900, 117-133. `Isabelle
-   source files <isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
+   source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
 
 -  Jeremy E. Dawson & Rajeev Goré, `Machine-checked Meta-theory of
    Dual-Tableaux for Intuitionistic Logic <hol/idt/orlowska-idt>`__, in
@@ -200,20 +203,20 @@ Journals and Refereed Conferences
    Decidability of Implicational Ticket
    Entailment. <pubs/ticket/final>`__ In: Automated Reasoning with
    Analytic Tableaux and Related Methods 2017 (Tableaux 2017), LNAI
-   10501, 347-363. `Isabelle source files <isabelle/2005/bimbo-dunn/>`__
+   10501, 347-363. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/bimbo-dunn/>`__
 
 -  Jeremy E. Dawson, James Brotherston & Rajeev Goré, `Machine-checked
    Interpolation Theorems for Substructural Logics using Display
    Calculi <pubs/interp/ijcar>`__ In: International Joint Conference on
    Automated Reasoning, Coimbra, Portugal, 2016 (IJCAR 2016), LNCS 9706,
-   452-468. `Isabelle source files <isabelle/2005/interp/>`__
+   452-468. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/interp/>`__
 
 -  Jeremy E. Dawson, Rajeev Goré & Jesse Wu, `Machine-Checked
    Proof-Theory for Propositional Modal
    Logics <pubs/cutelim/jaegerfest>`__ In: Progress Computer
    Science(Birkhäuser), Vol. 28, Reinhard Kahle et al. (Eds): Advances
    in Proof Theory, Chapter 5 `Isabelle source
-   files <isabelle/2005/seqms/>`__ `link to publisher's
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/seqms/>`__ `link to publisher's
    site <http://www.springer.com/gp/book/9783319291963>`__
 
 -  Jeremy E. Dawson, Rajeev Goré, Thomas Meumann: `Machine-Checked
@@ -226,26 +229,26 @@ Journals and Refereed Conferences
    Display Calculi to Deep Nested Sequent Calculi: Formalised for Full
    Intuitionistic Linear Logic. <pubs/fill/git/tcs2014>`__ In Proc. TCS
    2014: Theoretical Computer Science, LNCS 8705, 250-264. `Isabelle
-   source files <isabelle/2005/seqms/>`__
+   source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/seqms/>`__
 
 -  Ranald Clouston, Jeremy E. Dawson, Rajeev Goré & Alwen Tiu,
    `Annotation-Free Sequent Calculi for Full Intuitionistic Linear
    Logic. <pubs/fill/git/csl2013>`__ In Proc. CSL 2013: European
    Conferences on Computer Science Logics, Schloss Dagstuhl -
    Leibniz-Zentrum für Informatik, LIPIcs, 23:197-214. `Isabelle source
-   files <isabelle/2005/fill/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fill/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Generic Methods for Formalising
    Sequent Calculi Applied to Provability
    Logic. <pubs/cutelim/gls/lpar-final>`__ In Logic for Programming,
    Artificial Intelligence and Reasoning (LPAR 2010), LNCS 6397,
-   263-277. `Isabelle source files <isabelle/2005/seqms/>`__
+   263-277. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/seqms/>`__
 
 -  Alwen Tiu, Rajeev Goré & Jeremy Dawson, A Proof Theoretic Analysis of
    Intruder Theories. Logical Methods in Computer Science 6 (3:12),
    2010, 1-37. ``http://arxiv.org/pdf/1005.4508`` `details of Isabelle
-   proofs <isabelle/2005/spi/Intruder.pdf>`__ \| `Isabelle source
-   files <isabelle/2005/spi/>`__
+   proofs <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/spi/Intruder.pdf>`__ \| `Isabelle source
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/spi/>`__
 
 -  Alwen Tiu & Jeremy E. Dawson, Automating Open Bisimulation Checking
    for the Spi Calculus. In Computer Security Foundations Symposium (CSF
@@ -255,7 +258,7 @@ Journals and Refereed Conferences
    Environment-Sensitive Bisimulation <pubs/spi/fotesb>`__ In 22nd
    International Conference on Theorem Proving in Higher Order Logics,
    Munich, August 2009 (TPHOLs 2009), LNCS 5674, 244-259. `Isabelle
-   source files <isabelle/2005/spi/>`__
+   source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/spi/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Termination of Abstract Reduction
    Systems <pubs/rewr_term/ijfcs>`__ International Journal of
@@ -263,72 +266,72 @@ Journals and Refereed Conferences
    from CATS 2007 and CSL 2004 papers).
 
 -  Jeremy E. Dawson, `Isabelle Theories for Machine
-   Words <pubs/l4/avocs/>`__ In Seventh International Workshop on
+   Words <https://users.cecs.anu.edu.au/~jeremy/pubs/l4/avocs/>`__ In Seventh International Workshop on
    Automated Verification of Critical Systems (AVOCS'07), Oxford,
    September 2007, Electronic Notes in Theoretical Computer Science, 250
    (2009), pp. 55-70, Elsevier.
 
 -  Jeremy E. Dawson, `Compound Monads in Specification
-   Languages <pubs/fgc/cmmc/plpv/>`__ In Proceedings of Programming
+   Languages <https://users.cecs.anu.edu.au/~jeremy/pubs/fgc/cmmc/plpv/>`__ In Proceedings of Programming
    Languages meets Program Verification (PLPV) 2007, Freiburg, October
    2007, ACM, 2007, 3-10. `Isabelle source files
-   (monads) <isabelle/2005/monad/>`__ `(modelling
-   computations) <isabelle/2005/fgc/>`__
+   (monads) <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/monad/>`__ `(modelling
+   computations) <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fgc/>`__
 
 -  Jeremy E. Dawson, `Formalising Generalised
-   Substitutions <pubs/fgc/fgs/>`__ In 20th International Conference on
+   Substitutions <https://users.cecs.anu.edu.au/~jeremy/pubs/fgc/fgs/>`__ In 20th International Conference on
    Theorem Proving in Higher Order Logics, Kaiserslautern, September
    2007 (TPHOLs 2007), LNCS 4732, 54-69. `Isabelle source
-   files <isabelle/2005/fgc/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fgc/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Termination of Abstract Reduction
    Systems <pubs/rewr_term/cats>`__ Computing: The Australasian Theory
    Symposium, 2007 (CATS 2007), Conferences in Research and Practice in
    Information Technology (CRPIT), Vol. 65, 35-43 `Isabelle source
-   files <isabelle/2005/snabs/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/snabs/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `A General Theorem on Termination of
-   Rewriting <pubs/rewr_term/csl04>`__ Computer Science Logic (CSL'04),
-   LNCS 3210, 100-114. `Isabelle source files <isabelle/2005/snabs/>`__
-   `more Isabelle source files <isabelle/2005/snlc/>`__
+   Rewriting <https://users.cecs.anu.edu.au/~jeremy/pubs/rewr_term/csl04>`__ Computer Science Logic (CSL'04),
+   LNCS 3210, 100-114. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/snabs/>`__
+   `more Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/snlc/>`__
 
 -  Jeremy E. Dawson, `Formalising General
-   Correctness <pubs/fgc/cats/>`__ Computing: The Australasian Theory
+   Correctness <https://users.cecs.anu.edu.au/~jeremy/pubs/fgc/cats/>`__ Computing: The Australasian Theory
    Symposium, 2004, Electronic Notes in Theoretical Computer Science 91,
-   46-65, Elsevier. `Isabelle source files <isabelle/2005/fgc/>`__
+   46-65, Elsevier. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fgc/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `A New Machine-checked Proof of
-   Strong Normalisation for Display Logic <pubs/cutelim/cats/>`__,
+   Strong Normalisation for Display Logic <https://users.cecs.anu.edu.au/~jeremy/pubs/cutelim/cats/>`__,
    Computing: The Australasian Theory Symposium, 2003, Electronic Notes
    in Theoretical Computer Science 78, 16-35, Elsevier. `Isabelle source
-   files <isabelle/2005/fdeep/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fdeep/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Machine-checking the Timed Interval
    Calculus <pubs/tic/>`__, 15th Australian Joint Conference on
    Artificial Intelligence (AI'02), LNCS 2557, 95-106, `Isabelle source
-   files <isabelle/2005/tic/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/tic/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Formalised Cut Admissibility for
-   Display Logic <pubs/cutelim/tphols/final/>`__ 15th International
+   Display Logic <https://users.cecs.anu.edu.au/~jeremy/pubs/cutelim/tphols/final/>`__ 15th International
    Conference on Theorem Proving in Higher Order Logics (TPHOLs 2002),
-   LNCS 2410, 131-147. `Isabelle source files <isabelle/2005/fdeep/>`__
+   LNCS 2410, 131-147. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fdeep/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `Embedding Display Calculi into
    Logical Frameworks : Comparing Twelf and
-   Isabelle <pubs/embed/cats-final>`__, Computing: The Australasian
+   Isabelle <https://users.cecs.anu.edu.au/~jeremy/pubs/embed/cats-final>`__, Computing: The Australasian
    Theory Symposium, 2001, Electronic Notes in Theoretical Computer
    Science, Elsevier, volume 42.
 
 -  Jeremy E. Dawson & Rajeev Goré, `A Mechanisation of Classical Modal
-   Tense Logics Using Isabelle <pubs/dkt/final>`__, Proceedings of the
+   Tense Logics Using Isabelle <https://users.cecs.anu.edu.au/~jeremy/pubs/dkt/final>`__, Proceedings of the
    11th Australian Joint Conference on Artificial Intelligence, LNCS
-   1502 (1998), 107-118. `Isabelle source files <isabelle/2005/ss/>`__
+   1502 (1998), 107-118. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/ss/>`__
 
 -  Jeremy E. Dawson & Rajeev Goré, `A Mechanised Proof System for
-   Relation Algebra using Display Logic <pubs/dra/final>`__, Proceedings
+   Relation Algebra using Display Logic <https://users.cecs.anu.edu.au/~jeremy/pubs/dra/final>`__, Proceedings
    of the 6th European Workshop on Logics in Artificial Intelligence,
    LNCS 1489 (1998), 264-278. `Isabelle source
-   files <isabelle/2005/ss/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/ss/>`__
 
 Workshops
 ~~~~~~~~~
@@ -336,25 +339,25 @@ Workshops
 -  Jeremy E. Dawson, `Formalising General
    Correctness <pubs/fgc/tphols-b/>`__, In Theorem Proving in Higher
    Order Logics, NASA/CP-2002-211736, 36-47. `Isabelle source
-   files <isabelle/2005/fgc/>`__
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/fgc/>`__
 
 -  Jeremy E. Dawson & Matt Fairtlough, Automatic Constraint Calculation
    using Lax Logic, In Theorem Proving in Higher Order Logics,
    NASA/CP-2002-211736, 48-59.
 
 -  Jeremy E. Dawson, `Simulating Term-Rewriting in LPF and in Display
-   Logic <pubs/rewr/wip-submitted>`__, Theorem Proving in Higher Order
+   Logic <https://users.cecs.anu.edu.au/~jeremy/pubs/rewr/wip-submitted>`__, Theorem Proving in Higher Order
    Logics: Emerging Trends (supplementary proceedings of TPHOLs'98),
    TR-CS-98-08, Australian National University, 47-62. `(later
-   version) <pubs/rewr/fac-submitted>`__, Isabelle source files for
-   `LPF <isabelle/2005/lpf/>`__ \| `Display Logic <isabelle/2005/dl/>`__
+   version) <https://users.cecs.anu.edu.au/~jeremy/pubs/rewr/fac-submitted>`__, Isabelle source files for
+   `LPF <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/lpf/>`__ \| `Display Logic <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/dl/>`__
 
 Technical reports, etc
 ~~~~~~~~~~~~~~~~~~~~~~
 
 -  Jeremy E. Dawson, `Compound Monads and the Kleisli
-   Category <pubs/cmkc/>`__, submitted `Isabelle source
-   files <isabelle/2005/monad/>`__
+   Category <https://users.cecs.anu.edu.au/~jeremy/pubs/cmkc/>`__, submitted `Isabelle source
+   files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/monad/>`__
 
 Other
 -----
