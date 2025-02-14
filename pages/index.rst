@@ -36,10 +36,10 @@ In retirement I've been doing more of a variety of things, including
 
 *  reverting to my earlier interest in the law, including being rather
    outspoken about legal issues and cases that attract my interest, see
-   further `here </legal-docs/>`__
+   further `here <./legal-docs/legal_docs/>`__
 
 *  I'm also starting a set of pages called the `Streisand
-   Effect <./streisand-docs/>`__, designed to try to give
+   Effect <./streisand-docs/streisand-docs/>`__, designed to try to give
    maximum publicity to writings with others have tried to punish or
    suppress.
 
