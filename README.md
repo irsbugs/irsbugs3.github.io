@@ -7,7 +7,7 @@ applications that may be required.
 It does not require a PC to have Nikola software installed and for the PC to *push* and *pull* files to Github.
 
 The documents in the *src* (source) branch are the only ones that are edited to modifiy the website and any of its pages. 
-After editing a file, click on *Commit* and the CPU's at Github will start runnining the applications to re-build the 
+After editing a file, click on *Commit* and the CPU's at Github will start running the applications to re-build the 
 whole website. These *Updating* and *pages build and deployment* phases can be monitored by clicking on the *Actions* tab. 
 The website re-build will take about 3 to 5 minutes before a refresh of a web-browser will display the updated website.
 
@@ -20,9 +20,9 @@ will get replaced during the next *Commit* that is perform.
 Tree of the *src* branch directory and its sub-directories and files. As of 2025-02-15.
 
 ```
-src                                           <-- Dir Source Code directory. Only edit files below. Do not edit files in "main" 
+src                                           <-- Dir Source Code top level branch directory. 
 ├── .github/workflows                         <-- Dir
-│   └── main.yml                              <-- Yaml command file for Github to run Nikola and re-build the website.
+│   └── main.yml                              <-- Yaml command file for Github. Runs Nikola to re-build the website.
 │
 ├── files                                     <-- Dir
 │   ├── assets/css                            <-- Dir
@@ -38,16 +38,16 @@ src                                           <-- Dir Source Code directory. Onl
 ├── pages                                     <-- Dir
 │   ├── legal-docs                            <-- Dir
 │   │   ├── legal-docs                        <-- Dir
-│   │   │   ├── README.rst                    <-- Explains that this directory is for .rst or .md files on legal matters.
+│   │   │   ├── README.rst                    <-- Explains that this directory is for files on legal matters.
 │   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray.
 │   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ.
 │   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden.
 │   │   ├── README.rst                        <-- Explains what this directory is for.
-│   │   └── legal-docs.rst                    <-- This rst file is what the navigation button links to. Has the links to
-│   │                                             to the write-up files in the subdirectory legal-docs
+│   │   └── legal-docs.rst                    <-- This rst file is what the navigation button links to. Has the links
+│   │                                             to the write-up files in the subdirectory legal-docs.
 │   ├── streisand-docs                        <-- Dir
 │   │   ├── streisand-docs                    <-- Dir
-│   │   │   ├── README.rst                    <-- Explains that this directory is for .rst or .md files on Streisand Effect
+│   │   │   ├── README.rst                    <-- Explains that this directory is for files on Streisand Effect
 │   │   │   ├── aaa-winstanley.rst            <-- Write-up file
 │   │   │   ├── other-govt.rst                <-- Write-up file
 │   │   │   ├── palestine-congress-notes.rst  <-- Write-up file
@@ -56,7 +56,7 @@ src                                           <-- Dir Source Code directory. Onl
 │   │   │   ├── terrorism.rst                 <-- Write-up file
 │   │   │   └── uk-police.rst                 <-- Write-up file
 │   │   ├── README.rst                        <-- Explains what this directory is for.
-│   │   └── streisand-docs.rst                <-- This rst file is what the navigation button links to. Has the links to
+│   │   └── streisand-docs.rst                <-- This rst file is what the navigation button links to. Has the links
 │   │                                             to the write-up files in the subdirectory streisand-docs
 │   │
 │   ├── about.rst                             <-- Jeremy's details. Displayed when clicking on the About button.
@@ -65,6 +65,6 @@ src                                           <-- Dir Source Code directory. Onl
 │
 ├── README.md                                 <-- Introduction to Nikola *src* branch. What you are now reading. 
 ├── .gitignore                                <-- Commands for Git. Don't touch.
-└── conf.py                                   <-- The python program that Nikola runs to configure the website. It contains
-```                                                  many constants that you can change to modify the website.
+└── conf.py                                   <-- The python program that Nikola runs to configure the website.
+                                                  It contains many constants that you can use to modify the website.
 
