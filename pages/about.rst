@@ -10,18 +10,6 @@
 
 .. _top:
 
-.. title: About
-.. slug: about
-.. date: 2025-02-10
-.. tags: 
-.. category: 
-.. link: 
-.. description: About Jeremy - From anu.html page.
-.. type: text
-.. hidetitle: True
-
-.. _top:
-
 Jeremy Dawson
 =============
 
@@ -42,6 +30,8 @@ Jeremy Dawson
 
 **Note:** the links on this page may not work, try the similar page at
 ANU `here <http://users.cecs.anu.edu.au/~jeremy/index.html>`__
+
+--------------------------------------------------------------------------------------
 
 | **Email:**   firstname-surname at gmx.com
 
@@ -372,8 +362,7 @@ Other
 -----
 
 Ranked =17th in 1998 International Functional Programming Contest, see
-`table of
-results <http://www.ai.mit.edu/extra/icfp-contest/phase1.html>`__
+`table of results <http://www.ai.mit.edu/extra/icfp-contest/phase1.html>`__
 
 Finalist in 1999 International Functional Programming Contest, see
 `report <http://www.eecs.harvard.edu/~nr/pubs/icfp99-abstract.html>`__
