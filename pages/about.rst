@@ -13,8 +13,6 @@
 Jeremy Dawson
 =============
 
---------------------------------------------------------------------------------------
-
 * formerly `Computer Sciences Laboratory <http://csl.rsise.anu.edu.au/>`__
 
   `Research School of Information Sciences and Engineering <http://rsise.anu.edu.au/>`__
