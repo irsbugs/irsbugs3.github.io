@@ -37,7 +37,7 @@ In retirement I've been doing more of a variety of things, including
 
 *  reverting to my earlier interest in the law, including being rather
    outspoken about legal issues and cases that attract my interest, see
-   further `here <./legal-docs/legal_docs/>`__
+   further `here <./legal-docs/legal-docs/>`__
 
 *  I'm also starting a set of pages called the `Streisand
    Effect <./streisand-docs/streisand-docs/>`__, designed to try to give
