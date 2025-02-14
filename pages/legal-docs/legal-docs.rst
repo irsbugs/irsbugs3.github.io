@@ -138,9 +138,6 @@ their role.
 
 So here is a `piece about these issues <cm-contempt>`_.
 
-So here is a `piece single underscore issues <cm-contempt>`_.
-
-
 
 Listing of Documents
 --------------------
