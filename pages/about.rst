@@ -4,7 +4,7 @@
 .. tags: 
 .. category: 
 .. link: 
-.. description: About Jeremy Dawson
+.. description: About Jeremy Dawson - many links fixed
 .. type: text
 .. hidetitle: True
 
@@ -28,7 +28,7 @@ Jeremy Dawson
 
 --------------------------------------------------------------------------------------
 
-**Note:** the links on this page may not work, try the similar page at
+**Note:** Some of the links on this page may not work. Try the similar page at
 ANU `here <http://users.cecs.anu.edu.au/~jeremy/index.html>`__
 
 --------------------------------------------------------------------------------------
@@ -113,13 +113,13 @@ Studies/Thesis (1997)
 In 1997 I did the Graduate Diploma in Computer Science. My honours
 thesis, Mechanised Proof Systems for Relation Algebras, was on
 automating display logic in
-`Isabelle <http://www.cl.cam.ac.uk/Research/HVG/isabelle.html>`__; my
+`Isabelle <https://www.cl.cam.ac.uk/research/hvg/Isabelle/>`__; my
 supervisor was `Rajeev Goré <http://cecs.anu.edu.au/~rpg>`__ of the
 Automated Reasoning Group. In 1998 and late 1999 I did some further work
 along these lines, see the papers below.
 
-Here are copies of my thesis, in `ps.gz <thesis/thesis.ps.gz>`__,
-`dvi.gz <thesis/thesis.dvi.gz>`__, and `here <thesis/thesis-files>`__
+Here are copies of my thesis, in `ps.gz <https://users.cecs.anu.edu.au/~jeremy/thesis/thesis.ps.gz>`__,
+`dvi.gz <https://users.cecs.anu.edu.au/~jeremy/thesis/thesis.dvi.gz>`__, and `here <https://users.cecs.anu.edu.au/~jeremy/thesis/thesis-files>`__
 are the source code files referred to in it.
 
 Earlier employment (up to 1996)
@@ -173,23 +173,23 @@ Software
 --------
 
 I've written some publicly available and, I hope, useful, software, see
-`here <sw/>`__; currently this includes `code <sw/xfig>`__ to create
+`here <https://users.cecs.anu.edu.au/~jeremy/sw/>`__; currently this includes `code <https://users.cecs.anu.edu.au/~jeremy/sw/xfig>`__ to create
 ``.fig`` graphics files, as can be produced interactively and displayed
 by the ``xfig`` program.
 
 Publications
 ------------
 
-A list of publications is `here <cv/papers.html>`__; some online ones
+A list of publications is `here <https://users.cecs.anu.edu.au/~jeremy/cv/papers.html>`__; some online ones
 follow - note that copyrights to some are held by publishers, including
 `Springer-Verlag <http://www.springer.de/comp/lncs/>`__. A more detailed
-CV is also `here <cv/cvc.html>`__.
+CV is also `here <https://users.cecs.anu.edu.au/~jeremy/cv/cvc.html>`__.
 
 Journals and Refereed Conferences
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Jeremy Dawson, Nachum Dershowitz, Rajeev Goré, `Well-Founded
-   Unions <isabelle/2005/gen/tripartite-paper/from_nd>`__, In: Automated
+   Unions <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/tripartite-paper/from_nd>`__, In: Automated
    Reasoning (IJCAR 2018), Oxford, LNCS/LNAI 10900, 117-133. `Isabelle
    source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
 
@@ -207,7 +207,7 @@ Journals and Refereed Conferences
 
 -  Jeremy E. Dawson, James Brotherston & Rajeev Goré, `Machine-checked
    Interpolation Theorems for Substructural Logics using Display
-   Calculi <pubs/interp/ijcar>`__ In: International Joint Conference on
+   Calculi <https://users.cecs.anu.edu.au/~jeremy/pubs/interp/ijcar>`__ In: International Joint Conference on
    Automated Reasoning, Coimbra, Portugal, 2016 (IJCAR 2016), LNCS 9706,
    452-468. `Isabelle source files <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/interp/>`__
 
@@ -221,7 +221,7 @@ Journals and Refereed Conferences
 
 -  Jeremy E. Dawson, Rajeev Goré, Thomas Meumann: `Machine-Checked
    Reasoning About Complex Voting Schemes Using Higher-Order
-   Logic. <pubs/evoting>`__ In Proc. E-Voting and Identity - 5th
+   Logic. <https://users.cecs.anu.edu.au/~jeremy/pubs/evoting>`__ In Proc. E-Voting and Identity - 5th
    International Conference, VoteID 2015, Bern, Switzerland, September
    2-4, 2015.
 
