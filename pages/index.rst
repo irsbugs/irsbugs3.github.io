@@ -18,6 +18,7 @@ Welcome to the Jeremy Dawson website.
 
 | **Email:**   firstname-surname at gmx.com
 |
+
 Academic Career (1998-2021)
 ---------------------------
 
@@ -25,7 +26,7 @@ For this period of 24 years I was at the...
 
 * Logic and Computation Group in the `Research School of Information Sciences and Engineering <http://rsise.anu.edu.au/>`__  at the `Australian National University <http://www.anu.edu.au/textonly/external.html>`__,
 
-* subsequently in the `Research School of Computer Science <http://cs.anu.edu.au/>`__, part of the `College of Engineering and Computer Science <http://cecs.anu.edu.au/>`__, see further details `here <http://csl.rsise.anu.edu.au/>`__.
+* subsequently in the `Research School of Computer Science <http://cs.anu.edu.au/>`__, part of the `College of Engineering and Computer Science <http://cecs.anu.edu.au/>`__, see further details `here <https://users.cecs.anu.edu.au/~jeremy/index.html>`__.
 
 
 Retirement
