@@ -1053,10 +1053,9 @@ LICENSE = """
 # Ian 2022-08-31 - Add version to footer.
 # Ian 2023-03-20 - Change Footer soe no version info for Nikola or Python
 #CONTENT_FOOTER = 'WLUG &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola {nikola_version}</a> using <a href="https://www.python.org/" #rel="nofollow">Python {python_version}</a>  {license}'
-CONTENT_FOOTER = 'WLUG &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
+#CONTENT_FOOTER = 'WLUG &copy; {date} - Powered by <a href="https://getnikola.com" #rel="nofollow">Nikola </a> using <a href="https://www.python.org/" #rel="nofollow">Python </a>  {license}'
 
-
-
+CONTENT_FOOTER = ' &copy; {date} {author} - <a href="https://getnikola.com" #rel="nofollow">Nikola </a> Website. {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -1093,8 +1092,8 @@ CONTENT_FOOTER_FORMATS = {
             "author": BLOG_AUTHOR,
             "date": time.gmtime().tm_year,
             "license": LICENSE,
-            "nikola_version": NIKOLA_VERSION,
-            "python_version": PYTHON_VERSION,            
+            #"nikola_version": NIKOLA_VERSION,
+            #"python_version": PYTHON_VERSION,            
         }
     )
 }
