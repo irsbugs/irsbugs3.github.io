@@ -15,8 +15,9 @@ Jeremy Dawson
 
 Welcome to the Jeremy Dawson website.
 
-| **Email:**   firstname-surname at gmx.com
 
+| **Email:**   firstname-surname at gmx.com
+|
 Academic Career (1998-2021)
 ---------------------------
 
