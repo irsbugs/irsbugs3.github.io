@@ -3,8 +3,7 @@ Development Only
 
 Used in development to to demo features that can be incorporated into a Nikola website.
 
-Ensure:  
+Ensure demo-docs.rst file includes the meta data:
 
-    .. slug: demo-docs
+\.\. slug: demo-docs
 
-...is included in the meta data for accessing demo-docs.rst file.
