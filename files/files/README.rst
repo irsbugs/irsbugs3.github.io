@@ -31,7 +31,7 @@ Click to download a pdf file...
 .. raw:: html
 
     <p>
-    <a href="./files/test.pdf" download>
+    <a href="../files/test.pdf" download>
     <button type="button">Click to download test.pdf file</button>
      </a>
      </p>
