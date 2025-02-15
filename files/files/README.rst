@@ -7,6 +7,8 @@ The extra file/ folder is design so that in "main" it creates the top level fold
 
 Web pages are in sub-directories, so the syntax to reference a .pdf in files/files/ may be one of these...
 
+.. code-block::
+
      ../files/test.pdf
      ../../files/test.pdf
 
