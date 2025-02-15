@@ -1,4 +1,5 @@
-/*custom.css file
+/*custom.css file resides in files/assets/css/
+
 Add indentation to text block quotes
 Ian 21025-02-11
 */
@@ -11,8 +12,7 @@ blockquote p, blockquote {
 }
 
 /*
-Ian 2025-02-12 add logo, etc. From WLUG website custom.css
-
+Ian 2025-02-12 add logo
 Set the height of the logo...
 */
 #logo {
@@ -37,12 +37,6 @@ Set the height of the logo...
 .navbar-nav>li>a.index:before { 
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png'); 
     }
-
-*/
-
-/* <a href="https://twitter.com/WaikatoLUG"><img alt="Twitter" src="/images/twitter.png" width=40"></a>
-<img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png">
-*/
 
 /* #4c828f # 386e7b 56,110,123, are darker versions of logo color 126,180,193 = 7eb4c1 */
 /* This should be green colour */
@@ -69,11 +63,12 @@ Set the height of the logo...
 */
 
 /* Default colour of the text on the navigation bar
-b8f0fd = 184 240 253 a lighter version of 126,180,183*/
+b8f0fd = 184 240 253 a lighter version of 126,180,183 
+Reduce font size to allow cramming more ler line in drop-down menu*/
 .nav-link, .dropdown-item {
     color: #b8f0fd !important;
     background-color: #386e7b !important;
-    font-size: 120%;
+    font-size: 80%;
 }
 
 /* Colour of the text on the navigation bar when hover and drop-down*/
@@ -85,6 +80,5 @@ b8f0fd = 184 240 253 a lighter version of 126,180,183*/
 .navbar .navbar-nav > li .navbar-item ,
 .navbar .navbar-brand{
                        color: red;
-                      }
-                      
+                      }                      
 */
