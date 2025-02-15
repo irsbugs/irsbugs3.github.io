@@ -20,53 +20,68 @@ will get replaced during the next *Commit* that is perform.
 Tree of the *src* branch directory and its sub-directories and files. As of 2025-02-15.
 
 ```
-src                                           <-- Dir Source Code top level branch directory. 
+src                                           <-- Dir Source Code top level branch directory.
+│ 
 ├── .github/workflows                         <-- Dir
-│   └── main.yml                              <-- Yaml command file for Github. Runs Nikola to re-build the website.
+│   └── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
 │
 ├── files                                     <-- Dir
-│   ├── assets/css                            <-- Dir
-│   │   └── custom.css                        <-- For adding additional CSS. E.g. Added indentation to blockquotes.
-│   └── files                                 <-- Dir
-│       ├── README.rst                        <-- Explanation of what this directory is used for.
-│       └── test.pdf                          <-- Used by development to test Demo's download works OK.
+│   ├── assets/css                            <-- Dir
+│   │   └── custom.css                        <-- For adding additional CSS. E.g. logo size.
+│   └── files                                 <-- Dir
+│       ├── README.rst                        <-- Explanation of what this directory is for.
+│       └── test.pdf                          <-- Used by development to test Demo's downloads
 │
 ├── images                                    <-- Dir
-│   ├── favicon-16x16.png                     <-- Icon to insert in the web-browser tab
-│   ├── favicon-32x32.png                     <-- 
-│   ├── jd-logo.svg                           <-- An svg file that contains the logo. Custom.css sets logo height.
-│   └── julian_assange.jpg                    <-- Example picture used by Demo.
+│   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab
+│   ├── favicon-32x32.png                     <-- 
+│   ├── jd-logo.svg                           <-- An svg file that contains the logo.
+│   └── julian_assange.jpg                    <-- Example picture used by Demo.
 │
 ├── pages                                     <-- Dir
-│   ├── legal-docs                            <-- Dir
-│   │   ├── legal-docs                        <-- Dir
-│   │   │   ├── README.rst                    <-- Explains that this directory is for files on legal matters.
-│   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray.
-│   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ.
-│   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden.
-│   │   ├── README.rst                        <-- Explains what this directory is for.
-│   │   └── legal-docs.rst                    <-- This rst file is what the navigation button links to. Has the links
-│   │                                             to the write-up files in the subdirectory legal-docs.
-│   ├── streisand-docs                        <-- Dir
-│   │   ├── streisand-docs                    <-- Dir
-│   │   │   ├── README.rst                    <-- Explains that this directory is for files on Streisand Effect
-│   │   │   ├── aaa-winstanley.rst            <-- Write-up file
-│   │   │   ├── other-govt.rst                <-- Write-up file
-│   │   │   ├── palestine-congress-notes.rst  <-- Write-up file
-│   │   │   ├── palistine-congress.rst        <-- Write-up file
-│   │   │   ├── social-media.rst              <-- Write-up file
-│   │   │   ├── terrorism.rst                 <-- Write-up file
-│   │   │   └── uk-police.rst                 <-- Write-up file
-│   │   ├── README.rst                        <-- Explains what this directory is for.
-│   │   └── streisand-docs.rst                <-- This rst file is what the navigation button links to. Has the links
-│   │                                             to the write-up files in the subdirectory streisand-docs
-│   │
-│   ├── about.rst                             <-- Jeremy's details. Displayed when clicking on the About button.
-│   ├── demo.rst                              <-- Development demo file. To be hidden when development finished.
-│   └── index.rst                             <-- The Welcome or Home page. Initial page that loads at the website.
+│   │ 
+│   ├── about-docs                            <-- Dir
+│   │   ├── about-docs                        <-- Dir
+│   │   │   └── README.rst                    <-- Explains this directory is for "about".
+│   │   ├── README.rst                        <-- Explains what this directory is for.
+│   │   └── about-docs.rst                    <-- Write-up file that introduces Jeremy.
+│   │ 
+│   ├── demo-docs                             <-- Dir - Used in development only.
+│   │   ├── demo-docs                         <-- Dir
+│   │   │   └── README.rst                    <-- Explains this directory is for "demo".
+│   │   ├── README.rst                        <-- Explains what this directory is for.
+│   │   └── demo-docs.rst                     <-- reST file that introduces demo. By Ian.
+│   │
+│   ├── legal-docs                            <-- Dir
+│   │   ├── legal-docs                        <-- Dir
+│   │   │   ├── README.rst                    <-- Explains this directory is for legal matters.
+│   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray.
+│   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ.
+│   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden.
+│   │   ├── README.rst                        <-- Explains what this directory is for.
+│   │   └── legal-docs.rst                    <-- Write-up file that introduces legal.
+│   │                                         
+│   ├── streisand-docs                        <-- Dir
+│   │   ├── streisand-docs                    <-- Dir
+│   │   │   ├── README.rst                    <-- Explains this directory is Streisand effects
+│   │   │   ├── aaa-winstanley.rst            <-- Write-up file
+│   │   │   ├── other-govt.rst                <-- Write-up file
+│   │   │   ├── palestine-congress-notes.rst  <-- Write-up file
+│   │   │   ├── palistine-congress.rst        <-- Write-up file
+│   │   │   ├── social-media.rst              <-- Write-up file
+│   │   │   ├── terrorism.rst                 <-- Write-up file
+│   │   │   └── uk-police.rst                 <-- Write-up file
+│   │   ├── README.rst                        <-- Explains what this directory is for.
+│   │   └── streisand-docs.rst                <-- Write-up file that introduces streisand.
+│   │
+│   └── index.rst                             <-- Write-up file. The Welcome or Home page.
 │
-├── README.md                                 <-- Introduction to Nikola *src* branch. What you are now reading. 
+├── README.md                                 <-- Introduction to Nikola *src* branch. 
 ├── .gitignore                                <-- Commands for Git. Don't touch.
-└── conf.py                                   <-- The python program that Nikola runs to configure the website.
+└── conf.py                                   <-- The python program that Nikola runs.
+                                                  It contains many constants that you modify.
+```
+
+
                                                   It contains many constants that you can use to modify the website.
 
