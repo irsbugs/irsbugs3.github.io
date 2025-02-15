@@ -1,6 +1,11 @@
 Documents on Streisand Effect written by Jeremy Dawson.
 =======================================================
 
+Ensure streisand-docs.rst file includes the meta data:
+
+.. slug: streisand-docs
+
+
 This folder is named *streisand-docs*. It contains:
 
 
