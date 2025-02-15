@@ -1,6 +1,10 @@
 Documents on legal and political written by Jeremy Dawson.
 ==========================================================
 
+Ensure legal-docs.rst file includes the meta data:
+
+\.\. slug: legal-docs
+
 This folder is named *legal-docs*. It contains:
 
 
