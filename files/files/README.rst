@@ -5,8 +5,9 @@ This *files* folder is intended for storing .pdf files that someone may want to 
 
 The extra file/ folder is design so that in "main" it creates the top level folder "files".
 
-Web pages are in sub-directories, so the syntax to reference a .pdf in files/files/ may be...
+Web pages are in sub-directories, so the syntax to reference a .pdf in files/files/ may be one of these...
 
+     ../files/test.pdf
      ../../files/test.pdf
 
 For example:
@@ -25,6 +26,7 @@ For example:
          </p>
   
 This will be displayed on the web-page as:
+
 
 Click to download a pdf file...
 
