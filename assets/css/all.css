@@ -940,7 +940,13 @@ blockquote p, blockquote {
 }
 
 /*
-Ian 2025-02-12 add logo
+Ian 2025-02-12 add logo. Logo needs in conf.py:
+# Link to .svg file that is the logo.
+LOGO_URL = '/images/jd-logo.svg'
+# Display the logo instead of a title.
+SHOW_BLOG_TITLE = False
+# Upload the logo file to /images/ src folder.
+
 Set the height of the logo...
 */
 #logo {
@@ -992,11 +998,11 @@ Set the height of the logo...
 
 /* Default colour of the text on the navigation bar
 b8f0fd = 184 240 253 a lighter version of 126,180,183 
-Reduce font size to allow cramming more ler line in drop-down menu*/
+Increase the font-size of nav buttons */
 .nav-link, .dropdown-item {
     color: #b8f0fd !important;
     background-color: #386e7b !important;
-    font-size: 80%;
+    font-size: 120%;
 }
 
 /* Colour of the text on the navigation bar when hover and drop-down*/
