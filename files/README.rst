@@ -17,7 +17,7 @@ For example:
 .. code-block::
    :linenos
 
-   Click to download a pdf file...
+   Downloading of the test.pdf file...
 
    .. raw:: html
 
@@ -29,8 +29,7 @@ For example:
   
 This will be displayed on the web-page as:
 
-
-Click to download a pdf file...
+Downloading of the test.pdf file...
 
 .. raw:: html
 
