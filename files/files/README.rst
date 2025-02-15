@@ -11,8 +11,10 @@ Web pages are in sub-directories, so the syntax to reference a .pdf in files/fil
 
 E.g.
 
-Click to download a pdf file...
+.. code-block::
+   :linenos
 
+Click to download a pdf file...
 
      .. raw:: html
 
