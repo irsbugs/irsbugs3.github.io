@@ -14,13 +14,13 @@ E.g.
 .. code-block::
    :linenos
 
-Click to download a pdf file...
+   Click to download a pdf file...
 
-     .. raw:: html
+   .. raw:: html
 
-         <p>
-         <a href="../../files/test.pdf" download>
-         <button type="button">Click to download test.pdf file</button>
+        <p>
+        <a href="../../files/test.pdf" download>
+        <button type="button">Click to download test.pdf file</button>
          </a>
          </p>
   
