@@ -12,8 +12,6 @@ E.g.
 
 Click to download a pdf file...
 
-.. codeblock::
-
      .. raw:: html
 
          <p>
