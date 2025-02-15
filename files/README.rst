@@ -1,8 +1,9 @@
-Folder files/files/
+files/files/ folder
+-------------------
 
-This files folder is intended for sotring .pdf files that someone may want to download.
+This files folder are intended for storing .pdf files that someone may want to download.
 
-The extra file/ folder is design in "main" to create the folder "files".
+The extra file/ folder is design in "main" to create the top level folder "files".
 
 Web pages are in sub-directories, so the syntax to reference a .pdf in files/files may be..
 
@@ -11,6 +12,7 @@ Web pages are in sub-directories, so the syntax to reference a .pdf in files/fil
 E.g.
 
 Click to download a pdf file...
+
 
      .. raw:: html
 
