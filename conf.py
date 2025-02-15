@@ -191,7 +191,7 @@ NAVIGATION_ALT_LINKS = {
         ),
         ("/streisand-docs/streisand-docs/", "Streisand effect"),  
         ("/about-docs/about-docs/", "About"),
-        ("/demo-docs/demo-docs", "Demo"),       
+        ("/demo-docs/demo-docs/", "Demo"),       
     )
 }
 
