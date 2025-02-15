@@ -83,8 +83,7 @@ It is common to allow the downloading of files. Normally they are .pdf files.
     Making pdf files available for downloading:
     -------------------------------------------
 
-    Change: conf.py from: FILES_FOLDERS = {'files': ''}
-    to:  FILES_FOLDERS = {'files': 'files'}
+    conf.py is: FILES_FOLDERS = {'files': ''}
 
     After the Nikola build, all the pdf files are placed into: /output/files/...
 
@@ -100,7 +99,7 @@ Click to download a pdf file...
 
     <p>
     <!-- Split over 3 lines -->
-    <a href="/files/test.pdf" download>
+    <a href="../../files/test.pdf" download>
     <button type="button">Click to download test.pdf file</button>
     </a>
     </p>
