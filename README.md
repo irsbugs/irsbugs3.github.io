@@ -83,5 +83,3 @@ src                                           <-- Dir Source Code top level bran
 ```
 
 
-                                                  It contains many constants that you can use to modify the website.
-
