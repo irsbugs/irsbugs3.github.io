@@ -1,5 +1,5 @@
 .. title: Demo
-.. slug: demo
+.. slug: demo-docs
 .. date: 2025-02-14
 .. tags: 
 .. category: 
