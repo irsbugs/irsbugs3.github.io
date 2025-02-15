@@ -1,15 +1,15 @@
 files/files/ folder
 -------------------
 
-This files folder are intended for storing .pdf files that someone may want to download.
+This *files* folder is intended for storing .pdf files that someone may want to download.
 
-The extra file/ folder is design in "main" to create the top level folder "files".
+The extra file/ folder is design so that in "main" it creates the top level folder "files".
 
-Web pages are in sub-directories, so the syntax to reference a .pdf in files/files may be..
+Web pages are in sub-directories, so the syntax to reference a .pdf in files/files/ may be...
 
      ../../files/test.pdf
 
-E.g.
+For example:
 
 .. code-block::
    :linenos
