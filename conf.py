@@ -179,7 +179,7 @@ NAVIGATION_LINKS = {
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        #("/legal-docs/legal-docs/", "Legal"),
+        #("/legal-docs/legal-docs/", "Legal"), # If no drop-down menu on Navigation bar
         (
             (
                 ("/legal-docs/legal-docs/", "Introduction"),
@@ -191,7 +191,7 @@ NAVIGATION_ALT_LINKS = {
         ),
         ("/streisand-docs/streisand-docs/", "Streisand effect"),  
         ("/about-docs/about-docs/", "About"),
-        ("/demo/", "Demo"),       
+        ("/demo-docs/demo-docs", "Demo"),       
     )
 }
 
