@@ -24,8 +24,8 @@ For example:
         <p>
         <a href="../../files/test.pdf" download>
         <button type="button">Click to download test.pdf file</button>
-         </a>
-         </p>
+        </a>
+        </p>
   
 This will be displayed on the web-page as:
 
@@ -37,6 +37,6 @@ Click to download a pdf file...
     <p>
     <a href="../files/test.pdf" download>
     <button type="button">Click to download test.pdf file</button>
-     </a>
-     </p>
+    </a>
+    </p>
 
