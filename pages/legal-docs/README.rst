@@ -1,3 +1,15 @@
+.. title: Help for /pages/legal-docs/ folder
+.. slug: readme
+.. date: 2025-02-17
+.. tags: 
+.. category: 
+.. link: 
+.. description: Provide the help for the /pages/legal-docs/ folder
+.. type: text
+.. hidetitle: True
+
+.. _top:
+
 /pages/legal-docs folder
 ------------------------
 
@@ -43,3 +55,5 @@ Note on anonymous hyperlink target.
 -----------------------------------
 
 In the text, a double-underscore suffix is used to indicate an anonymous hyperlink reference. In an anonymous hyperlink target, the reference text is not repeated. This is useful for references with long text or throw-away references, but the target should be kept close to the reference to prevent them going out of sync. 
+
+`[Goto Top] <#top>`_
