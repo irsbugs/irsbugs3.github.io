@@ -1,6 +1,6 @@
 .. title: README for src top-level folder /pages/readme-src/
 .. slug: readme
-.. date: *2025-02-17
+.. date: 2025-02-17
 .. tags: 
 .. category: 
 .. link: 
