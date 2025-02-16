@@ -1,12 +1,12 @@
-.. title: README for src top-level folder /pages/readme-src/
-.. slug: readme
-.. date: 2025-02-17
-.. tags: 
-.. category: 
-.. link: 
-.. description: /pages/readme-src/README.rst can not be in top-level as html file in top-level is index.html. i.e. Home Page
-.. type: text
-.. hidetitle: True
+title: README for src top-level folder /pages/readme-src/
+slug: readme
+date: 2025-02-17
+tags: 
+category: 
+link: 
+description: /pages/readme-src/README.rst can not be in top-level as html file in top-level is index.html. i.e. Home Page
+type: text
+hidetitle: True
 
 <a id="Top"></a>
 
