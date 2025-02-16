@@ -22,10 +22,12 @@ files in *main* branch as they will get replaced during the next *Commit* that i
 
 The src top-level directory has 4 x folders and 3 x files. The three files are:
 
-  .gitignore <--- Command for *git*. Dont change this file.
-  README.rst <--- The file you are now reading.
-  conf.py    <--- This python configuration file performs the loading of constants that are
+```
+.gitignore <--- Command for *git*. Dont change this file.
+README.rst <--- The file you are now reading.
+conf.py    <--- This python configuration file performs the loading of constants that are
                 used by Nikola every time the website is re-built. 
+```
 
 **Tree diagram of the *src* branch directory and its sub-directories and files. - 2025-02-15
 
