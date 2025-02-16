@@ -1,3 +1,5 @@
+<a id="Top"></a>
+
 Welcome to Nikola Static Website Generator
 ==========================================
 
@@ -93,7 +95,7 @@ branch their contents are not displayed by the website.
 Metadata Template for .rst files
 --------------------------------
 
-All .rst filenames should only use **a to z**, **0-9** and a literal dash **-**.
+All *reStructuredText .rst* filenames should only use **a to z**, **0-9** and a literal dash **-**.
 
 This is what the *slug* metadata expects.
 
@@ -120,11 +122,11 @@ Write or Paste your document here...
 Metadata Template for .md files
 -------------------------------
 
-All .rst filenames should only use **a to z**, **0-9** and a literal dash **-**.
+All *markdown .md* filenames should only use **a to z**, **0-9** and a literal dash **-**.
 
 This is what the *slug* metadata expects.
 
-When creating a new md file copy and paste the template below:
+When creating a new .md file copy and paste the template below:
 
 ```
 title: *My Title
@@ -146,3 +148,6 @@ Write or Paste your document here...
 <br><hr>
 [Goto Top](#top)
 ```
+
+<br><hr>
+[Goto Top](#top)
