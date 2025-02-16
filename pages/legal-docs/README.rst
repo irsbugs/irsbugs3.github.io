@@ -10,8 +10,8 @@
 
 .. _top:
 
-/pages/legal-docs folder
-------------------------
+/pages/legal-docs/ folder
+-------------------------
 
 For Documents on legal and political matters written by Jeremy Dawson.
 
