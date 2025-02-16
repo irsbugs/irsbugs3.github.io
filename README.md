@@ -29,7 +29,7 @@ conf.py    <--- This python configuration file performs the loading of constants
                 used by Nikola every time the website is re-built. 
 ```
 
-**Tree diagram of the *src* branch directory and its sub-directories and files. - 2025-02-15
+**Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-15
 
 ```
 src                                           <-- Dir Source Code top level branch directory.
@@ -90,4 +90,59 @@ easier to comprehend the diagram. Although the README files are passed to the "m
 branch their contents are not displayed by the website.
 ```
 
+Metadata Template for .rst files
+--------------------------------
 
+All .rst filenames should only use **a to z**, **0-9** and a literal dash **-**.
+
+This is what the *slug* metadata expects.
+
+When creating a new .rst file copy and paste the template below:
+```
+.. title: *My Title
+.. slug: *name of file without .rst extension.
+.. date: *2025-02-14
+.. tags: 
+.. category: 
+.. link: 
+.. description: *Write description
+.. type: text
+.. hidetitle: True
+
+.. _top:
+
+Write or Paste your document here...
+
+`[Goto Top] <#top>`_
+
+```
+
+Metadata Template for .md files
+-------------------------------
+
+All .rst filenames should only use **a to z**, **0-9** and a literal dash **-**.
+
+This is what the *slug* metadata expects.
+
+When creating a new md file copy and paste the template below:
+
+```
+title: *My Title
+slug: *name of file without .rst extension.
+date: *2025-02-15
+tags: 
+category: 
+link: 
+description: *Write description 
+type: text
+hidetitle: true
+
+<a id="Top"></a>
+
+
+Write or Paste your document here...
+
+
+<br><hr>
+[Goto Top](#top)
+```
