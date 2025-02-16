@@ -198,7 +198,8 @@ NAVIGATION_ALT_LINKS = {
                 #("../../readme/", "src"),  
                 ("/readme-src/readme/", "src"),                  
                 ("/readme/", "/pages/"),
-                ("/legal-docs/readme/", "/pages/legal-docs/"),   
+                ("/legal-docs/readme/", "/pages/legal-docs/"),
+                ("/legal-docs/legal-docs/readme/", "/pages/legal-docs/legal-docs/"),                  
             ),
             '<strong>Help</strong>'
         ),        
