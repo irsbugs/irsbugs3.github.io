@@ -1,5 +1,5 @@
-/pages/streisand-docs/ folder
-------------------------
+/pages/streisand-docs/streisand-docs/ folder
+--------------------------------------------
 
 Top directory for documents on Streisand Effect written by Jeremy Dawson.
 
