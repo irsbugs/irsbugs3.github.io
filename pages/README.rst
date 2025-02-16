@@ -8,7 +8,7 @@
 .. type: text
 .. hidetitle: True
 
-<a id="Top"></a>
+.. _top:
 
 /pages/
 -------
@@ -20,5 +20,4 @@ This */pages/* directory contains the file *index.rst*.
 index.rst is the Welcome or home page of the website.
 
 
-<br><hr>
-[Goto Top](#top
+`[Goto Top] <#top>`_
