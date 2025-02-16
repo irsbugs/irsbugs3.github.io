@@ -19,6 +19,12 @@ This */pages/* directory contains the file *index.rst*.
 
 index.rst is the Welcome or home page of the website.
 
-<p style="font-family: monospace, monospace;">This is Monospace text.</p>
+
+.. raw:: html
+
+  <p style="font-family: monospace, monospace;">This is Monospace text.</p>
+  <p style="color:red">This paragraph is styled with inline CSS.</p>
+
+
 
 `[Goto Top] <#top>`_
