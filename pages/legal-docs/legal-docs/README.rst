@@ -10,15 +10,14 @@
 
 .. _top:
 
-README.rst
 
-Documents
----------
+/pages/legal-docs/legal-docs/ folder
+------------------------------------
 
 Place .rst or .md documents of a legal nature in this folder i.e /pages/legal-docs/legal-docs/
 
 To have the drop-down menu for Legal list the newly added document edit conf.py
 
-In the Legal introduction page, place a link to the new document.
+In the Legal introduction page, place a link to the newly added document.
 
 `[Goto Top] <#top>`_
