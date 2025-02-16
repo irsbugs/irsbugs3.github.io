@@ -1,13 +1,13 @@
-Documents on Streisand Effect written by Jeremy Dawson.
-=======================================================
+/pages/streisand-docs/ folder
+------------------------
+
+Top directory for documents on Streisand Effect written by Jeremy Dawson.
 
 Ensure streisand-docs.rst file includes the meta data:
 
-.. slug: streisand-docs
-
+    .. slug: streisand-docs
 
 This folder is named *streisand-docs*. It contains:
-
 
 * **streisand-docs.rst** - This is the document that is the introduction or overview of the Streisand Effect 
 documents that have been written.
