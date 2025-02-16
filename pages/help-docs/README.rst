@@ -1,4 +1,4 @@
-.. title: README of /pages/help-docs]
+.. title: README of /pages/help-docs
 .. slug: readme
 .. date: 2025-02-17
 .. tags: 
@@ -10,15 +10,14 @@
 
 .. _top:
 
-Write or Paste your document here...
-
-`[Goto Top] <#top>`_
-
 /pages/help-docs/ folder
 ------------------------
 
 This is the /help-docs/ folder.
 
-It contains this README.rst file, help-docs.rst, and the sub-directory /help-docs/
+It contains: 
+* this README.rst file
+* help-docs.rst - The *introduction*  to the *Help* menu
+* sub-directory /help-docs/
 
 `[Goto Top] <#top>`_
