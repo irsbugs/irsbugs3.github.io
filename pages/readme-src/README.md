@@ -160,5 +160,4 @@ Write or Paste your document here...
 [Goto Top](#top)
 ```
 
-<br><hr>
 [Goto Top](#top)
