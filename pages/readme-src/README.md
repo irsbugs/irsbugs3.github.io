@@ -154,6 +154,57 @@ src <-- Dir Source Code top level branch directory. <br>
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
 </p>
 
+<p style="line-height: 0.99em; font-family: monospace, monospace;">
+src <br> 
+│ <br> 
+├── .github/workflows <br> 
+│&nbsp;&nbsp;&nbsp;└── main.yml <br>
+│ <br> 
+├── files <br> 
+│&nbsp;&nbsp;&nbsp;├── assets/css <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── custom.css <br> 
+│&nbsp;&nbsp;&nbsp;└── files <br> 
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── test.pdf <br> 
+│ <br> 
+├── images <br> 
+│&nbsp;&nbsp;&nbsp;├── favicon-16x16.png <br> 
+│&nbsp;&nbsp;&nbsp;├── favicon-32x32.png
+│&nbsp;&nbsp;&nbsp;├── jd-logo.svg <br> 
+│&nbsp;&nbsp;&nbsp;└── julian_assange.jpg <br> 
+│ <br> 
+├── pages <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;├── about-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── about-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── about-docs.rst <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── demo-docs.rst <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;├── legal-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── legal-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── cm-contempt.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── pcj-writeup.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── worden-writeup.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── legal-docs.rst <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── streisand-docs <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── aaa-winstanley.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── other-govt.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palestine-congress-notes.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palistine-congress.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── social-media.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── terrorism.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── uk-police.rst <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── streisand-docs.rst <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;└── index.rst <br> 
+│ <br> 
+├── .gitignore <br> 
+└── conf.py <br>
+</p>
 Metadata Template for .rst files
 --------------------------------
 
