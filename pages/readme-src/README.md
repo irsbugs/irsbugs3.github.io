@@ -165,7 +165,7 @@ branch their contents are not displayed by the website.
 
   <p style="font-family: monospace, monospace;">
   src                                           <-- Dir Source Code top level branch directory. <br> 
-  │&nbsp;&nbsp;&nbsp;&nbsp; 
+  │&nbsp;&nbsp;&nbsp;&nbsp; <br>
   ├── .github/workflows                         <-- Dir <br> 
   │&nbsp;&nbsp;&nbsp;&nbsp;└── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
   │ <br> 
@@ -176,10 +176,16 @@ branch their contents are not displayed by the website.
   │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── test.pdf              <-- Used by development to test Demo's downloads <br> 
   │ <br> 
   ├── images                                    <-- Dir <br> 
-  │   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab <br> 
-  │   ├── favicon-32x32.png                     <--  <br> 
-  │   ├── jd-logo.svg                           <-- An svg file that contains the logo. <br> 
-  │   └── julian_assange.jpg                    <-- Example picture used by Demo. <br> 
+  │&nbsp;&nbsp;├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab <br> 
+  │&nbsp;&nbsp;├── favicon-32x32.png                     <--  <br> 
+  │&nbsp;&nbsp;├── jd-logo.svg                           <-- An svg file that contains the logo. <br> 
+  │&nbsp;&nbsp;└── julian_assange.jpg                    <-- Example picture used by Demo. <br> 
+  │ <br> 
+  ├── pages                                     <-- Dir <br> 
+  │&nbsp;&nbsp;│  <br> 
+  │&nbsp;&nbsp;├── about-docs                            <-- Dir <br> 
+  │&nbsp;&nbsp;│&nbsp;&nbsp;├── about-docs                        <-- Dir <br> 
+  │&nbsp;&nbsp;│&nbsp;&nbsp;└── about-docs.rst                    <-- Write-up file that introduces Jeremy. <br> 
   </p>
 
 
