@@ -1,3 +1,15 @@
+---
+title: Source directory information
+slug: readme
+date: 2025-02-17
+tags: 
+category: 
+link: 
+description: Welcome to Nikola.
+type: text
+hidetitle: True
+---
+
 <a id="Top"></a>
 
 Welcome to Nikola Static Website Generator
@@ -141,11 +153,8 @@ hidetitle: true
 
 <a id="Top"></a>
 
-
 Write or Paste your document here...
 
-
-<br><hr>
 [Goto Top](#top)
 ```
 
