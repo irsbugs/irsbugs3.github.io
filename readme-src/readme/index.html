@@ -107,67 +107,14 @@ Markdown <em>.md</em> and then upload this file to a suitable folder in Github <
 files in <em>main</em> branch as they will get replaced during the next <em>Commit</em> that is perform.</p>
 <p>The src top-level directory has 4 x folders and 3 x files. The three files are:</p>
 <div class="code"><pre class="code literal-block"><span class="o">.</span><span class="n">gitignore</span><span class="w"> </span><span class="o">&lt;---</span><span class="w"> </span><span class="n">Command</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="o">*</span><span class="n">git</span><span class="o">*.</span><span class="w"> </span><span class="n">Dont</span><span class="w"> </span><span class="n">change</span><span class="w"> </span><span class="n">this</span><span class="w"> </span><span class="n">file</span><span class="o">.</span>
-<span class="n">README</span><span class="o">.</span><span class="n">rst</span><span class="w"> </span><span class="o">&lt;---</span><span class="w"> </span><span class="n">The</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">now</span><span class="w"> </span><span class="n">reading</span><span class="o">.</span>
+<span class="n">README</span><span class="o">.</span><span class="n">rst</span><span class="w"> </span><span class="o">&lt;---</span><span class="w"> </span><span class="n">The</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">you</span><span class="w"> </span><span class="n">are</span><span class="w"> </span><span class="n">now</span><span class="w"> </span><span class="n">reading</span><span class="o">.</span><span class="w"> </span><span class="n">However</span><span class="w"> </span><span class="n">its</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="n">copy</span>
 <span class="n">conf</span><span class="o">.</span><span class="n">py</span><span class="w">    </span><span class="o">&lt;---</span><span class="w"> </span><span class="n">This</span><span class="w"> </span><span class="n">python</span><span class="w"> </span><span class="n">configuration</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">performs</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">loading</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">constants</span><span class="w"> </span><span class="n">that</span><span class="w"> </span><span class="n">are</span>
 <span class="w">                </span><span class="n">used</span><span class="w"> </span><span class="n">by</span><span class="w"> </span><span class="n">Nikola</span><span class="w"> </span><span class="n">every</span><span class="w"> </span><span class="n">time</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">website</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="n">re</span><span class="o">-</span><span class="n">built</span><span class="o">.</span><span class="w"> </span>
 </pre></div>
 
 <p><strong>Tree diagram of the <em>src</em> branch directory and its sub-directories and files.</strong> - 2025-02-17</p>
-<p style="line-height: 0.99em; font-family: monospace, monospace;">
-src &lt;-- Dir Source Code top level branch directory. <br> 
-│ <br> 
-├── .github/workflows &lt;-- Dir <br> 
-│   └── main.yml &lt;-- Yaml. Runs Nikola to re-build the website.
-│ <br> 
-├── files &lt;-- Dir <br> 
-│   ├── assets/css &lt;-- Dir <br> 
-│   │   └── custom.css &lt;-- For adding additional CSS. E.g. logo size. <br> 
-│   └── files &lt;-- Dir <br> 
-│       └── test.pdf &lt;-- Used by development to test Demo's downloads <br> 
-│ <br> 
-├── images &lt;-- Dir <br> 
-│   ├── favicon-16x16.png &lt;-- Icons to insert in the web-browser tab <br> 
-│   ├── favicon-32x32.png &lt;-- <br> 
-│   ├── jd-logo.svg &lt;-- An svg file that contains the logo. <br> 
-│   └── julian_assange.jpg &lt;-- Example picture used by Demo. <br> 
-│ <br> 
-├── pages &lt;-- Dir <br> 
-│   │ <br> 
-│   ├── about-docs &lt;-- Dir <br> 
-│   │   ├── about-docs &lt;-- Dir <br> 
-│   │   └── about-docs.rst &lt;-- Write-up file that introduces Jeremy. <br> 
-│   │ <br> 
-│   ├── demo-docs &lt;-- Dir - Used in development only. <br> 
-│   │   ├── demo-docs &lt;-- Dir <br> 
-│   │   └── demo-docs.rst &lt;-- reST file that introduces demo. By Ian. <br> 
-│   │ <br> 
-│   ├── legal-docs &lt;-- Dir <br> 
-│   │   ├── legal-docs &lt;-- Dir <br> 
-│   │   │   ├── cm-contempt.rst &lt;-- Write-up file on Craig Murray. <br> 
-│   │   │   ├── pcj-writeup.rst &lt;-- Write-up file on PCJ. <br> 
-│   │   │   └── worden-writeup.rst &lt;-- Write-up file on Dr. Robert Worden. <br> 
-│   │   └── legal-docs.rst &lt;-- Write-up file that introduces legal. <br> 
-│   │ <br> 
-│   ├── streisand-docs &lt;-- Dir <br> 
-│   │   ├── streisand-docs &lt;-- Dir <br> 
-│   │   │   ├── aaa-winstanley.rst &lt;-- Write-up file <br> 
-│   │   │   ├── other-govt.rst &lt;-- Write-up file <br> 
-│   │   │   ├── palestine-congress-notes.rst &lt;-- Write-up file <br> 
-│   │   │   ├── palistine-congress.rst &lt;-- Write-up file <br> 
-│   │   │   ├── social-media.rst &lt;-- Write-up file <br> 
-│   │   │   ├── terrorism.rst &lt;-- Write-up file <br> 
-│   │   │   └── uk-police.rst &lt;-- Write-up file <br> 
-│   │   └── streisand-docs.rst &lt;-- Write-up file that introduces streisand. <br> 
-│   │ <br> 
-│   └── index.rst &lt;-- Write-up file. The Welcome or Home page. <br> 
-│ <br> 
-├── .gitignore &lt;-- Commands for Git. Don't touch. <br> 
-└── conf.py &lt;-- The python program that Nikola runs. It contains many constants that you modify. <br></p>
-
-<p>Every directory has a README.rst file that contains a brief explanation of what is in that
-directory. These README.rst files are omitted in the above tree diagram to make it 
-easier to comprehend the diagram. Although the README files are passed to the "main"
-branch their contents are not displayed by the website.</p>
+<p>All files have an &lt;-- explanation comment. All directories have no comment.</p>
+<!--the line-height is reduced slightly so vertical lines do not have spaaces-->
 <p style="line-height: 0.99em; font-family: monospace, monospace;">
 src &lt;-- Dir Source Code top level branch directory. <br> 
 │ <br> 
@@ -219,56 +166,10 @@ src &lt;-- Dir Source Code top level branch directory. <br>
 ├── .gitignore &lt;-- Commands for Git. Don't touch. <br> 
 └── conf.py &lt;-- The python program that Nikola runs. It contains many constants that you modify. <br></p>
 
-<p style="line-height: 0.99em; font-family: monospace, monospace;">
-src <br> 
-│ <br> 
-├── .github/workflows <br> 
-│   └── main.yml <br>
-│ <br> 
-├── files <br> 
-│   ├── assets/css <br> 
-│   │   └── custom.css <br> 
-│   └── files <br> 
-│       └── test.pdf <br> 
-│ <br> 
-├── images <br> 
-│   ├── favicon-16x16.png <br> 
-│   ├── favicon-32x32.png <br>
-│   ├── jd-logo.svg <br> 
-│   └── julian_assange.jpg <br> 
-│ <br> 
-├── pages <br> 
-│   │ <br> 
-│   ├── about-docs <br> 
-│   │   ├── about-docs <br> 
-│   │   └── about-docs.rst <br> 
-│   │ <br> 
-│   ├── demo-docs <br> 
-│   │   ├── demo-docs <br> 
-│   │   └── demo-docs.rst <br> 
-│   │ <br> 
-│   ├── legal-docs <br> 
-│   │   ├── legal-docs <br> 
-│   │   │   ├── cm-contempt.rst <br> 
-│   │   │   ├── pcj-writeup.rst <br> 
-│   │   │   └── worden-writeup.rst <br> 
-│   │   └── legal-docs.rst <br> 
-│   │ <br> 
-│   ├── streisand-docs <br> 
-│   │   ├── streisand-docs <br> 
-│   │   │   ├── aaa-winstanley.rst <br> 
-│   │   │   ├── other-govt.rst <br> 
-│   │   │   ├── palestine-congress-notes.rst <br> 
-│   │   │   ├── palistine-congress.rst <br> 
-│   │   │   ├── social-media.rst <br> 
-│   │   │   ├── terrorism.rst <br> 
-│   │   │   └── uk-police.rst <br> 
-│   │   └── streisand-docs.rst <br> 
-│   │ <br> 
-│   └── index.rst <br> 
-│ <br> 
-├── .gitignore <br> 
-└── conf.py <br></p>
+<p>Every directory has a README.rst file that contains a brief explanation of what is in that
+directory. These README.rst files are omitted in the above tree diagram to make it 
+easier to comprehend the diagram. Although the README files are passed to the "main"
+branch their contents are not normally displayed by the website.</p>
 <h3>Metadata Template for .rst files</h3>
 <p>All <em>reStructuredText .rst</em> filenames should only use <strong>a to z</strong>, <strong>0-9</strong> and a literal dash <strong>-</strong>.</p>
 <p>This is what the <em>slug</em> metadata expects.</p>
