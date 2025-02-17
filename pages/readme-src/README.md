@@ -43,7 +43,6 @@ conf.py    <--- This python configuration file performs the loading of constants
                 used by Nikola every time the website is re-built. 
 ```
 
-
 **Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
 
 <p style="line-height: 0.98em; font-family: monospace, monospace;">
