@@ -143,10 +143,10 @@ So here is a `piece about these issues <./legal-docs/cm-contempt>`_.
 Listing of Documents
 --------------------
 
-* `The statistical evidence in the postmasters: Bates (Horizon Issues) trial <./legal-docs/worden-writeup>`_
+* `The statistical evidence in the postmasters: Bates (Horizon Issues) trial <./worden-writeup/>`_
 
-* `The postmasters criminal cases: perverting the course of justice? <./legal-docs/pcj-writeup>`_
+* `The postmasters criminal cases: perverting the course of justice? <./pcj-writeup/>`_
 
-* `Craig Murray's contempt conviction <./legal-docscm-contempt>`_
+* `Craig Murray's contempt conviction <./cm-contempt>`_
 
 `[Goto Top] <#top>`_
