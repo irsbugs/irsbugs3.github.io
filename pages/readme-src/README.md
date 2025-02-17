@@ -126,7 +126,7 @@ src <-- Dir Source Code top level branch directory. <br>
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── about-docs <br> 
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── about-docs.rst <-- Write-up file that introduces Jeremy. <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;├── demo-docs <-- Dir - Used in development only. <br> 
+│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── demo-docs.rst <-- reST file that introduces demo. By Ian. <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
