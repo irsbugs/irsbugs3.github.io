@@ -105,9 +105,10 @@ branch their contents are not displayed by the website.
 ```
 
 
+**Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
 
 .. raw:: html
-
+  <p style="font-family: monospace, monospace;">
   src                                           <-- Dir Source Code top level branch directory. <br> 
   │ 
   ├── .github/workflows                         <-- Dir <br> 
@@ -160,64 +161,6 @@ branch their contents are not displayed by the website.
                                                     It contains many constants that you modify. <br>
   </p>
                                                   
-
-
-.. raw:: html
-
-  src                                           <-- Dir Source Code top level branch directory. <br> 
-  │ 
-  ├── .github/workflows                         <-- Dir <br> 
-  │   └── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
-  │ <br> 
-  ├── files                                     <-- Dir <br> 
-  │   ├── assets/css                            <-- Dir <br> 
-  │   │   └── custom.css                        <-- For adding additional CSS. E.g. logo size. <br> 
-  │   └── files                                 <-- Dir <br> 
-  │       └── test.pdf                          <-- Used by development to test Demo's downloads <br> 
-  │ <br> 
-  ├── images                                    <-- Dir <br> 
-  │   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab <br> 
-  │   ├── favicon-32x32.png                     <--  <br> 
-  │   ├── jd-logo.svg                           <-- An svg file that contains the logo. <br> 
-  │   └── julian_assange.jpg                    <-- Example picture used by Demo. <br> 
-  │ <br> 
-  ├── pages                                     <-- Dir <br> 
-  │   │  <br> 
-  │   ├── about-docs                            <-- Dir <br> 
-  │   │   ├── about-docs                        <-- Dir <br> 
-  │   │   └── about-docs.rst                    <-- Write-up file that introduces Jeremy. <br> 
-  │   │  <br> 
-  │   ├── demo-docs                             <-- Dir - Used in development only. <br> 
-  │   │   ├── demo-docs                         <-- Dir <br> 
-  │   │   └── demo-docs.rst                     <-- reST file that introduces demo. By Ian. <br> 
-  │   │ <br> 
-  │   ├── legal-docs                            <-- Dir <br> 
-  │   │   ├── legal-docs                        <-- Dir <br> 
-  │   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray. <br> 
-  │   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ. <br> 
-  │   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden. <br> 
-  │   │   └── legal-docs.rst                    <-- Write-up file that introduces legal. <br> 
-  │   │                                          <br> 
-  │   ├── streisand-docs                        <-- Dir <br> 
-  │   │   ├── streisand-docs                    <-- Dir <br> 
-  │   │   │   ├── aaa-winstanley.rst            <-- Write-up file <br> 
-  │   │   │   ├── other-govt.rst                <-- Write-up file <br> 
-  │   │   │   ├── palestine-congress-notes.rst  <-- Write-up file <br> 
-  │   │   │   ├── palistine-congress.rst        <-- Write-up file <br> 
-  │   │   │   ├── social-media.rst              <-- Write-up file <br> 
-  │   │   │   ├── terrorism.rst                 <-- Write-up file <br> 
-  │   │   │   └── uk-police.rst                 <-- Write-up file <br> 
-  │   │   └── streisand-docs.rst                <-- Write-up file that introduces streisand. <br> 
-  │   │ <br> 
-  │   └── index.rst                             <-- Write-up file. The Welcome or Home page. <br> 
-  │ <br> 
-  ├── .gitignore                                <-- Commands for Git. Don't touch. <br> 
-  └── conf.py                                   <-- The python program that Nikola runs. <br> 
-                                                    It contains many constants that you modify. <br>
-  </p>
-                                                  
-
-
 
 Metadata Template for .rst files
 --------------------------------
