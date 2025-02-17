@@ -15,7 +15,7 @@ Assorted legal or political writings
 ====================================
 
 Apart from a career spent mostly doing mathematics and computer science
-(see `here <../../about-docs>`__) I have an interest in legal and justice
+(see `here <../../about-docs/about-docs/>`__) I have an interest in legal and justice
 issues. And I have some legal qualifications but minimal experience as a
 lawyer. My email address is firstname-surname at gmx.com. Comments
 welcome.
