@@ -168,7 +168,7 @@ src <br>
 │ <br> 
 ├── images <br> 
 │&nbsp;&nbsp;&nbsp;├── favicon-16x16.png <br> 
-│&nbsp;&nbsp;&nbsp;├── favicon-32x32.png
+│&nbsp;&nbsp;&nbsp;├── favicon-32x32.png <br>
 │&nbsp;&nbsp;&nbsp;├── jd-logo.svg <br> 
 │&nbsp;&nbsp;&nbsp;└── julian_assange.jpg <br> 
 │ <br> 
