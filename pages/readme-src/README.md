@@ -161,6 +161,28 @@ branch their contents are not displayed by the website.
                                                     It contains many constants that you modify. <br>
   </p>
                                                   
+.. raw:: html
+
+  <p style="font-family: monospace, monospace;">
+  src                                           <-- Dir Source Code top level branch directory. <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp; 
+  ├── .github/workflows                         <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;└── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
+  │ <br> 
+  ├── files                                     <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;├── assets/css                            <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;└── custom.css                     <-- For adding additional CSS. E.g. logo size. <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;└── files                                 <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── test.pdf              <-- Used by development to test Demo's downloads <br> 
+  │ <br> 
+  ├── images                                    <-- Dir <br> 
+  │   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab <br> 
+  │   ├── favicon-32x32.png                     <--  <br> 
+  │   ├── jd-logo.svg                           <-- An svg file that contains the logo. <br> 
+  │   └── julian_assange.jpg                    <-- Example picture used by Demo. <br> 
+  </p>
+
+
 
 Metadata Template for .rst files
 --------------------------------
