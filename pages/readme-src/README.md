@@ -108,6 +108,7 @@ branch their contents are not displayed by the website.
 **Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
 
 .. raw:: html
+
   <p style="font-family: monospace, monospace;">
   src                                           <-- Dir Source Code top level branch directory. <br> 
   │ 
@@ -161,7 +162,80 @@ branch their contents are not displayed by the website.
                                                     It contains many constants that you modify. <br>
   </p>
                                                   
+**Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
+
 .. raw:: html
+
+  <p style="font-family: monospace, monospace;">
+  src <-- Dir Source Code top level branch directory. <br> 
+  │ <br> 
+  ├── .github/workflows <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;└── main.yml <-- Yaml. Runs Nikola to re-build the website.
+  │ <br> 
+  ├── files <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;├── assets/css <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── custom.css <-- For adding additional CSS. E.g. logo size. <br> 
+  │&nbsp;&nbsp;&nbsp;└── files <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── test.pdf <-- Used by development to test Demo's downloads <br> 
+  │ <br> 
+  ├── images <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;├── favicon-16x16.png <-- Icons to insert in the web-browser tab <br> 
+  │&nbsp;&nbsp;&nbsp;├── favicon-32x32.png <--  <br> 
+  │&nbsp;&nbsp;&nbsp;├── jd-logo.svg <-- An svg file that contains the logo. <br> 
+  │&nbsp;&nbsp;&nbsp;└── julian_assange.jpg <-- Example picture used by Demo. <br> 
+  │ <br> 
+  ├── pages <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│  <br> 
+  │&nbsp;&nbsp;&nbsp;├── about-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── about-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── about-docs.rst <-- Write-up file that introduces Jeremy. <br> 
+  │&nbsp;&nbsp;&nbsp;│  <br> 
+  │&nbsp;&nbsp;&nbsp;├── demo-docs <-- Dir - Used in development only. <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── demo-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── demo-docs.rst <-- reST file that introduces demo. By Ian. <br> 
+  │&nbsp;&nbsp;&nbsp;│ <br> 
+  │&nbsp;&nbsp;&nbsp;├── legal-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── legal-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── cm-contempt.rst <-- Write-up file on Craig Murray. <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── pcj-writeup.rst <-- Write-up file on PCJ. <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── worden-writeup.rst <-- Write-up file on Dr. Robert Worden. <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── legal-docs.rst <-- Write-up file that introduces legal. <br> 
+  │&nbsp;&nbsp;&nbsp;│ <br> 
+  │&nbsp;&nbsp;&nbsp;├── streisand-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── streisand-docs <-- Dir <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── aaa-winstanley.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── other-govt.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palestine-congress-notes.rst  <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palistine-congress.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── social-media.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── terrorism.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── uk-police.rst <-- Write-up file <br> 
+  │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── streisand-docs.rst <- Write-up file that introduces streisand. <br> 
+  │&nbsp;&nbsp;&nbsp;│ <br> 
+  │&nbsp;&nbsp;&nbsp;└── index.rst <-- Write-up file. The Welcome or Home page. <br> 
+  │ <br> 
+  ├── .gitignore <-- Commands for Git. Don't touch. <br> 
+  └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
+  </p>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <p style="font-family: monospace, monospace;">
   src                                           <-- Dir Source Code top level branch directory. <br> 
@@ -187,7 +261,6 @@ branch their contents are not displayed by the website.
   │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;└── about-docs.rst                    <-- Write-up file that introduces Jeremy. <br> 
   │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── about-docs                        <-- Dir <br> 
   │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── about-docs.rst                    <-- Write-up file that introduces Jeremy. <br> 
-
   </p>
 
 
