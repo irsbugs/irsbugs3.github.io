@@ -8,6 +8,7 @@
 .. description: Introduction to Legal and Political Writings in sub-directory /legal-docs/.
 .. type: text
 .. hidetitle: True
+
 ---
 
 .. _top:
