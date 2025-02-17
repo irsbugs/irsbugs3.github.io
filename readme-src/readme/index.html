@@ -168,6 +168,57 @@ src &lt;-- Dir Source Code top level branch directory. <br>
 directory. These README.rst files are omitted in the above tree diagram to make it 
 easier to comprehend the diagram. Although the README files are passed to the "main"
 branch their contents are not displayed by the website.</p>
+<p style="line-height: 0.99em; font-family: monospace, monospace;">
+src &lt;-- Dir Source Code top level branch directory. <br> 
+│ <br> 
+├── .github/workflows <br> 
+│   └── main.yml &lt;-- Yaml. Runs Nikola to re-build the website. <br>
+│ <br> 
+├── files <br> 
+│   ├── assets/css <br> 
+│   │   └── custom.css &lt;-- For adding additional CSS. E.g. logo size. <br> 
+│   └── files <br> 
+│       └── test.pdf &lt;-- Used by development to test Demo's downloads <br> 
+│ <br> 
+├── images <br> 
+│   ├── favicon-16x16.png &lt;-- Icons to insert in the web-browser tab <br> 
+│   ├── favicon-32x32.png &lt;-- <br> 
+│   ├── jd-logo.svg &lt;-- An svg file that contains the logo. <br> 
+│   └── julian_assange.jpg &lt;-- Example picture used by Demo. <br> 
+│ <br> 
+├── pages <br> 
+│   │ <br> 
+│   ├── about-docs <br> 
+│   │   ├── about-docs <br> 
+│   │   └── about-docs.rst &lt;-- Write-up file that introduces Jeremy. <br> 
+│   │ <br> 
+│   ├── demo-docs &lt;-- Dir - Used in development only. <br> 
+│   │   ├── demo-docs <br> 
+│   │   └── demo-docs.rst &lt;-- reST file that introduces demo. By Ian. <br> 
+│   │ <br> 
+│   ├── legal-docs <br> 
+│   │   ├── legal-docs <br> 
+│   │   │   ├── cm-contempt.rst &lt;-- Write-up file on Craig Murray. <br> 
+│   │   │   ├── pcj-writeup.rst &lt;-- Write-up file on PCJ. <br> 
+│   │   │   └── worden-writeup.rst &lt;-- Write-up file on Dr. Robert Worden. <br> 
+│   │   └── legal-docs.rst &lt;-- Write-up file that introduces legal. <br> 
+│   │ <br> 
+│   ├── streisand-docs <br> 
+│   │   ├── streisand-docs <br> 
+│   │   │   ├── aaa-winstanley.rst &lt;-- Write-up file <br> 
+│   │   │   ├── other-govt.rst &lt;-- Write-up file <br> 
+│   │   │   ├── palestine-congress-notes.rst &lt;-- Write-up file <br> 
+│   │   │   ├── palistine-congress.rst &lt;-- Write-up file <br> 
+│   │   │   ├── social-media.rst &lt;-- Write-up file <br> 
+│   │   │   ├── terrorism.rst &lt;-- Write-up file <br> 
+│   │   │   └── uk-police.rst &lt;-- Write-up file <br> 
+│   │   └── streisand-docs.rst &lt;- Write-up file that introduces streisand. <br> 
+│   │ <br> 
+│   └── index.rst &lt;-- Write-up file. The Welcome or Home page. <br> 
+│ <br> 
+├── .gitignore &lt;-- Commands for Git. Don't touch. <br> 
+└── conf.py &lt;-- The python program that Nikola runs. It contains many constants that you modify. <br></p>
+
 <h3>Metadata Template for .rst files</h3>
 <p>All <em>reStructuredText .rst</em> filenames should only use <strong>a to z</strong>, <strong>0-9</strong> and a literal dash <strong>-</strong>.</p>
 <p>This is what the <em>slug</em> metadata expects.</p>
