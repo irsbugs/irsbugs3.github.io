@@ -43,123 +43,6 @@ conf.py    <--- This python configuration file performs the loading of constants
                 used by Nikola every time the website is re-built. 
 ```
 
-**Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-15
-
-```
-src                                           <-- Dir Source Code top level branch directory.
-│ 
-├── .github/workflows                         <-- Dir
-│   └── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
-│
-├── files                                     <-- Dir
-│   ├── assets/css                            <-- Dir
-│   │   └── custom.css                        <-- For adding additional CSS. E.g. logo size.
-│   └── files                                 <-- Dir
-│       └── test.pdf                          <-- Used by development to test Demo's downloads
-│
-├── images                                    <-- Dir
-│   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab
-│   ├── favicon-32x32.png                     <-- 
-│   ├── jd-logo.svg                           <-- An svg file that contains the logo.
-│   └── julian_assange.jpg                    <-- Example picture used by Demo.
-│
-├── pages                                     <-- Dir
-│   │ 
-│   ├── about-docs                            <-- Dir
-│   │   ├── about-docs                        <-- Dir
-│   │   └── about-docs.rst                    <-- Write-up file that introduces Jeremy.
-│   │ 
-│   ├── demo-docs                             <-- Dir - Used in development only.
-│   │   ├── demo-docs                         <-- Dir
-│   │   └── demo-docs.rst                     <-- reST file that introduces demo. By Ian.
-│   │
-│   ├── legal-docs                            <-- Dir
-│   │   ├── legal-docs                        <-- Dir
-│   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray.
-│   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ.
-│   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden.
-│   │   └── legal-docs.rst                    <-- Write-up file that introduces legal.
-│   │                                         
-│   ├── streisand-docs                        <-- Dir
-│   │   ├── streisand-docs                    <-- Dir
-│   │   │   ├── aaa-winstanley.rst            <-- Write-up file
-│   │   │   ├── other-govt.rst                <-- Write-up file
-│   │   │   ├── palestine-congress-notes.rst  <-- Write-up file
-│   │   │   ├── palistine-congress.rst        <-- Write-up file
-│   │   │   ├── social-media.rst              <-- Write-up file
-│   │   │   ├── terrorism.rst                 <-- Write-up file
-│   │   │   └── uk-police.rst                 <-- Write-up file
-│   │   └── streisand-docs.rst                <-- Write-up file that introduces streisand.
-│   │
-│   └── index.rst                             <-- Write-up file. The Welcome or Home page.
-│
-├── .gitignore                                <-- Commands for Git. Don't touch.
-└── conf.py                                   <-- The python program that Nikola runs.
-                                                  It contains many constants that you modify.
-
-
-Every directory has a README.rst file that gives a brief explanation of what is in that
-directory. These README.rst files are omitted in the above tree diagram to make it 
-easier to comprehend the diagram. Although the README files are passed to the "main"
-branch their contents are not displayed by the website.
-```
-
-
-**Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
-
-  <p style="font-family: monospace, monospace;">
-  src                                           <-- Dir Source Code top level branch directory. <br> 
-  │ 
-  ├── .github/workflows                         <-- Dir <br> 
-  │   └── main.yml                              <-- Yaml. Runs Nikola to re-build the website.
-  │ <br> 
-  ├── files                                     <-- Dir <br> 
-  │   ├── assets/css                            <-- Dir <br> 
-  │   │   └── custom.css                        <-- For adding additional CSS. E.g. logo size. <br> 
-  │   └── files                                 <-- Dir <br> 
-  │       └── test.pdf                          <-- Used by development to test Demo's downloads <br> 
-  │ <br> 
-  ├── images                                    <-- Dir <br> 
-  │   ├── favicon-16x16.png                     <-- Icons to insert in the web-browser tab <br> 
-  │   ├── favicon-32x32.png                     <--  <br> 
-  │   ├── jd-logo.svg                           <-- An svg file that contains the logo. <br> 
-  │   └── julian_assange.jpg                    <-- Example picture used by Demo. <br> 
-  │ <br> 
-  ├── pages                                     <-- Dir <br> 
-  │   │  <br> 
-  │   ├── about-docs                            <-- Dir <br> 
-  │   │   ├── about-docs                        <-- Dir <br> 
-  │   │   └── about-docs.rst                    <-- Write-up file that introduces Jeremy. <br> 
-  │   │  <br> 
-  │   ├── demo-docs                             <-- Dir - Used in development only. <br> 
-  │   │   ├── demo-docs                         <-- Dir <br> 
-  │   │   └── demo-docs.rst                     <-- reST file that introduces demo. By Ian. <br> 
-  │   │ <br> 
-  │   ├── legal-docs                            <-- Dir <br> 
-  │   │   ├── legal-docs                        <-- Dir <br> 
-  │   │   │   ├── cm-contempt.rst               <-- Write-up file on Craig Murray. <br> 
-  │   │   │   ├── pcj-writeup.rst               <-- Write-up file on PCJ. <br> 
-  │   │   │   └── worden-writeup.rst            <-- Write-up file on Dr. Robert Worden. <br> 
-  │   │   └── legal-docs.rst                    <-- Write-up file that introduces legal. <br> 
-  │   │                                          <br> 
-  │   ├── streisand-docs                        <-- Dir <br> 
-  │   │   ├── streisand-docs                    <-- Dir <br> 
-  │   │   │   ├── aaa-winstanley.rst            <-- Write-up file <br> 
-  │   │   │   ├── other-govt.rst                <-- Write-up file <br> 
-  │   │   │   ├── palestine-congress-notes.rst  <-- Write-up file <br> 
-  │   │   │   ├── palistine-congress.rst        <-- Write-up file <br> 
-  │   │   │   ├── social-media.rst              <-- Write-up file <br> 
-  │   │   │   ├── terrorism.rst                 <-- Write-up file <br> 
-  │   │   │   └── uk-police.rst                 <-- Write-up file <br> 
-  │   │   └── streisand-docs.rst                <-- Write-up file that introduces streisand. <br> 
-  │   │ <br> 
-  │   └── index.rst                             <-- Write-up file. The Welcome or Home page. <br> 
-  │ <br> 
-  ├── .gitignore                                <-- Commands for Git. Don't touch. <br> 
-  └── conf.py                                   <-- The python program that Nikola runs. <br> 
-                                                    It contains many constants that you modify. <br>
-  </p>
-                                                  
 **Tree diagram of the *src* branch directory and its sub-directories and files.** - 2025-02-17
 
 <p style="font-family: monospace, monospace;">
@@ -206,13 +89,19 @@ src <-- Dir Source Code top level branch directory. <br>
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── social-media.rst <-- Write-up file <br> 
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── terrorism.rst <-- Write-up file <br> 
 │&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── uk-police.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── streisand-docs.rst <- Write-up file that introduces streisand. <br> 
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── streisand-docs.rst <-- Write-up file that introduces streisand. <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
 │&nbsp;&nbsp;&nbsp;└── index.rst <-- Write-up file. The Welcome or Home page. <br> 
 │ <br> 
 ├── .gitignore <-- Commands for Git. Don't touch. <br> 
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
 </p>
+
+Every directory has a README.rst file that contains a brief explanation of what is in that
+directory. These README.rst files are omitted in the above tree diagram to make it 
+easier to comprehend the diagram. Although the README files are passed to the "main"
+branch their contents are not displayed by the website.
+
 
 Metadata Template for .rst files
 --------------------------------
