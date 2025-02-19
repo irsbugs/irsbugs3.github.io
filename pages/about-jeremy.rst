@@ -1,3 +1,4 @@
+.. ---
 .. title: About Jeremy
 .. slug: about-jeremy
 .. date: 2025-02-19
@@ -7,6 +8,7 @@
 .. description: About Jeremy Dawson - many links fixed. Provision for files in subfolder
 .. type: text
 .. hidetitle: True
+.. ---
 
 .. _top:
 
