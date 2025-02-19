@@ -15,15 +15,10 @@
 Jeremy Dawson
 =============
 
-* formerly `Computer Sciences Laboratory <http://csl.rsise.anu.edu.au/>`__
+* formerly `Computer Sciences Laboratory <http://csl.rsise.anu.edu.au/>`__ `Research School of Information Sciences and Engineering <http://rsise.anu.edu.au/>`__
 
-  `Research School of Information Sciences and Engineering <http://rsise.anu.edu.au/>`__
-
-  now `Research School of Computer Science <http://cs.anu.edu.au/>`__
-
-* `College of Engineering and Computer Science <http://cecs.anu.edu.au/>`__
-  `Australian National University <http://www.anu.edu.au/textonly/external.html>`__
-  Canberra   `ACT <http://www.act.gov.au/>`__   0200
+*  now `Research School of Computer Science <http://cs.anu.edu.au/>`__ `College of Engineering and Computer Science <http://cecs.anu.edu.au/>`__
+  `Australian National University <http://www.anu.edu.au/textonly/external.html>`__ Canberra `ACT <http://www.act.gov.au/>`__  0200 
   `AUSTRALIA <http://www.fed.gov.au/>`__
 
 --------------------------------------------------------------------------------------
