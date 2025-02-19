@@ -169,13 +169,11 @@ NAVIGATION_LINKS = {
         ("/contact-us/", "Contact Us"),
     ),
 }
-
 '''
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 # For legal have a drop down menu on the navigation bar
-'''
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
@@ -1042,7 +1040,6 @@ FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}…</a> ({min_remaining_re
 # "utm_source={feedRelUri}&utm_medium=nikola_feed&utm_campaign={feedFormat}_feed"
 FEED_LINKS_APPEND_QUERY = False
 
-'''
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
 LICENSE = ""
@@ -1056,7 +1053,7 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
+#CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
 # Ian 2025-02-13 - Add a license in the footer
 #LICENSE = ""
@@ -1067,6 +1064,7 @@ LICENSE = """
  <img alt="Creative Commons License BY-NC-SA"
  style="float: right; margin: 0px 0px 5px 5px; border-width:0;"
  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a>"""
+
 # Changed from style="border-width:0; margin-bottom:12px;"
 #
 # A small copyright notice for the page footer (in HTML).
@@ -1121,7 +1119,6 @@ CONTENT_FOOTER_FORMATS = {
         }
     )
 }
-
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
 RSS_COPYRIGHT = 'Contents © {date} <a href="mailto:{email}">{author}</a> {license}'
