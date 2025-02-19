@@ -121,7 +121,7 @@ Particular cases or categories
 Asa Winstanley
 ~~~~~~~~~~~~~~
 
-Read more `here <./asa-winstanley>`__
+Read more `here <../asa-winstanley>`__
 
 . Writer about Palestine etc, investigated for terrorism, involving a
 dawn police raid on his home, and confiscation of his electronic
@@ -135,7 +135,7 @@ Other UK police actions
 These keep on happening, challenging my capacity to keep up with them.
 See `separate article here <../streisand-uk-police>`__. I've also written an
 `article about the legislation underlying a lot of the
-actions <../streisand-terrorism.html>`__.
+actions <../streisand-terrorism>`__.
 
 Other government actions
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -179,7 +179,7 @@ Listing of Documents
 
 * `Asa Winstanley <../streisand-asa-winstanley>`__
 * `Other Governments <../streisand-other-govt>`__
-* `Palesting Congress <../streisand-palestine-congress>`__
+* `Palestine Congress <../streisand-palestine-congress>`__
 * `Palestine Congress Notes <../streisand-palestine-congress-notes>`__
 * `Social Media <../streisand-social-media>`__
 * `Terrorism <../streisand-terrorism>`__
