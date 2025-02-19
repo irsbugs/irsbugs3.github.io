@@ -34,7 +34,17 @@ Markdown *.md* and then upload this file to a suitable folder in Github *src* br
 For each *Commit* the website is re-built and located in the *main* branch. Do not edit any 
 files in *main* branch as they will get replaced during the next *Commit* that is perform.
 
-The src top-level directory has 4 x folders and 3 x files. The three files are:
+The src top-level directory has 4 x folders and 3 x files. 
+The four folders are:
+```
+,github <--- Contains the workflow folder with thew main.yml yaml file for Nikola to rebuild the wbsite
+files   <--- Folder for files. For example .pdf's for downloading and to customise css. 
+images  <--- Folder for storing .jpg, .png, etc. image files
+pages   <--- Folder for all the .rst or .md files that become .html webpages.
+```
+
+
+The three files are:
 ```
 .gitignore <--- Command for *git*. Dont change this file.
 README.rst <--- The file you are now reading. However its a copy
