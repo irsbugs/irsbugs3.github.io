@@ -64,36 +64,26 @@ src <-- Dir Source Code top level branch directory. <br>
 │&nbsp;&nbsp;&nbsp;├── favicon-32x32.png <-- <br> 
 │&nbsp;&nbsp;&nbsp;├── jd-logo.svg <-- An svg file that contains the logo. <br> 
 │&nbsp;&nbsp;&nbsp;└── julian_assange.jpg <-- Example picture used by Demo. <br> 
-│ <br> 
+│ <br>
 ├── pages <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;├── about-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── about-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── about-docs.rst <-- Write-up file that introduces Jeremy. <br> 
+│&nbsp;&nbsp;&nbsp;├── about-jeremy.rst <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── demo-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── demo-docs.rst <-- reST file that introduces demo. By Ian. <br> 
+│&nbsp;&nbsp;&nbsp;├── legal-introduction.rst <br> 
+│&nbsp;&nbsp;&nbsp;├── legal-cm-contempt.rst <-- Write-up file on Craig Murray. <br> 
+│&nbsp;&nbsp;&nbsp;├── legal-pcj-writeup.rst <-- Write-up file on PCJ. <br> 
+│&nbsp;&nbsp;&nbsp;├── legal-worden-writeup.rst <-- Write-up file on Dr. Robert Worden. <br>
+│&nbsp;&nbsp;&nbsp;│ <br>  
+│&nbsp;&nbsp;&nbsp;├── streisand-introduction.rst <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-aaa-winstanley.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-other-govt.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-palestine-congress-notes.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-palistine-congress.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-social-media.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-terrorism.rst <-- Write-up file <br> 
+│&nbsp;&nbsp;&nbsp;├── streisand-uk-police.rst <-- Write-up file <br>  
 │&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;├── legal-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── legal-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── cm-contempt.rst <-- Write-up file on Craig Murray. <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── pcj-writeup.rst <-- Write-up file on PCJ. <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── worden-writeup.rst <-- Write-up file on Dr. Robert Worden. <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── legal-docs.rst <-- Write-up file that introduces legal. <br> 
-│&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;├── streisand-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── streisand-docs <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── aaa-winstanley.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── other-govt.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palestine-congress-notes.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── palistine-congress.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── social-media.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├── terrorism.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── uk-police.rst <-- Write-up file <br> 
-│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── streisand-docs.rst <- Write-up file that introduces streisand. <br> 
-│&nbsp;&nbsp;&nbsp;│ <br> 
-│&nbsp;&nbsp;&nbsp;└── index.rst <-- Write-up file. The Welcome or Home page. <br> 
+│&nbsp;&nbsp;&nbsp;├── index.rst <-- Write-up file. The Welcome or Home page. <br> 
 │ <br> 
 ├── .gitignore <-- Commands for Git. Don't touch. <br> 
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
