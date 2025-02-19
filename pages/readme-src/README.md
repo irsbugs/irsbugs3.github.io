@@ -16,7 +16,7 @@ Welcome to Nikola Static Website Generator
 ==========================================
 
 This website has been created using Github's ability to provide and run the Nikola 
-application, and up to 120+ other applications that may be required.
+application, and also run up to 120+ other applications that may be required by Nikola.
 
 It does not require a PC to have Nikola software installed and for the PC to *push* and 
 *pull* files to Github.
@@ -37,7 +37,7 @@ files in *main* branch as they will get replaced during the next *Commit* that i
 The src top-level directory has 4 x folders and 3 x files. 
 The four folders are:
 ```
-,github <--- Contains the workflow folder with thew main.yml yaml file for Nikola to rebuild the wbsite
+.github <--- Contains the workflow folder with thew main.yml yaml file for Nikola to rebuild the wbsite
 files   <--- Folder for files. For example .pdf's for downloading and to customise css. 
 images  <--- Folder for storing .jpg, .png, etc. image files
 pages   <--- Folder for all the .rst or .md files that become .html webpages.
