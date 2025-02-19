@@ -175,36 +175,36 @@ NAVIGATION_LINKS = {
 # although themes may not always support them. (translatable)
 # (Bootstrap 4: right-side of navbar, Bootblog 4: right side of title)
 # For legal have a drop down menu on the navigation bar
-
+```
 NAVIGATION_ALT_LINKS = {
     DEFAULT_LANG: (
         ("/index.html", "Welcome"),
-        #("/legal-docs/legal-docs/", "Legal"), # If no drop-down menu on Navigation bar
         (
             (
-                ("/legal-docs/legal-docs/", "Introduction"),
-                ("/legal-docs/legal-docs/cm-contempt/", "Craig Murray"),                
-                ("/legal-docs/legal-docs/pcj-writeup/", "PCJ"),
-                ("/legal-docs/legal-docs/worden-writeup/", "Dr. Robert Worden"),                                
+                ("/legal-introduction/", "Introduction"),                
+                ("/legal-cm-contempt/", "Craig Murray"),                
+                ("/legal-pcj-writeup/", "PCJ"),
+                ("/legal-worden-writeup/", "Dr. Robert Worden"),                                
             ),
             '<strong>Legal</strong>'    
         ),
-        ("/streisand-docs/streisand-docs/", "Streisand effect"),  
-        ("/about-docs/about-docs/", "About"),
-        ("/demo-docs/demo-docs/", "Demo"), 
         (
             (
-                ("/help-docs/help-docs/", "Introduction"),
-                #("../../readme/", "src"),  
-                ("/readme-src/readme/", "src"),                  
-                ("/readme/", "/pages/"),
-                ("/legal-docs/readme/", "/pages/legal-docs/"),
-                ("/legal-docs/legal-docs/readme/", "/pages/legal-docs/legal-docs/"),                  
+                ("/streisand-introduction/", "Introduction"), 
+                ("/streisand-asa-winstanley/", "Asa Winstanley"),
+                ("/streisand-other-govt/", "Other Governments"), 
+                ("/streisand-palestine-congress-notes/", "Palistine Congress - Notes"),
+                ("/streisand-palestine-congress/", "Palistine Congress"),
+                ("/streisand-social-media/", "Social Media"), 
+                ("/streisand-terrorism/", "Terrorism"), 
+                ("/streisand-uk-police/", "U.K. Police"), 
             ),
-            '<strong>Help</strong>'
-        ),        
+            '<strong>Streisand effect</strong>'    
+        ),
+        ("/about-jeremy/", "About me"),      
     )
 }
+
 
 # Name of the theme to use.
 #THEME = "bootblog4"
