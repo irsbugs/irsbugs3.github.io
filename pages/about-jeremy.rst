@@ -1,4 +1,5 @@
-.. ---
+.. 
+   ---
 .. title: About Jeremy
 .. slug: about-jeremy
 .. date: 2025-02-19
@@ -8,7 +9,8 @@
 .. description: About Jeremy Dawson - many links fixed. Provision for files in subfolder
 .. type: text
 .. hidetitle: True
-.. ---
+..
+   ---
 
 .. _top:
 
@@ -85,7 +87,9 @@ Topics I have worked on more recently have included
 
 -  formalising in Isabelle results of Nachum Dershowitz about
    well-founded unions of well-founded relations. The Isabelle files are
-   `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/>`__ (see ``tripartite.{thy,ML}``)
+   `here <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/>`__ (see 
+   `tripartite.ML <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/tripartite.ML>`__ and
+   `tripartite.thy <https://users.cecs.anu.edu.au/~jeremy/isabelle/2005/gen/tripartite.thy>`__.
 
 -  formalising in Isabelle results on proof systems for Full
    Intuitionistic Linear Logic, based on work with Alwen Tiu, Ranald
