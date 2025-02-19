@@ -1058,7 +1058,6 @@ LICENSE = ""
 # (translatable)
 CONTENT_FOOTER = 'Contents &copy; {date}         <a href="mailto:{email}">{author}</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         {license}'
 
-'''
 # Ian 2025-02-13 - Add a license in the footer
 #LICENSE = ""
 # I recommend using the Creative Commons' wizard:
@@ -1122,8 +1121,6 @@ CONTENT_FOOTER_FORMATS = {
         }
     )
 }
-
-
 
 # A simple copyright tag for inclusion in RSS feeds that works just
 # like CONTENT_FOOTER and CONTENT_FOOTER_FORMATS
