@@ -1,5 +1,8 @@
-exit 0 # <--- Stop doing re-builds on commit?
+
 on: [push]
+
+run-name: exit 0
+
 
 jobs:
   nikola_build:
