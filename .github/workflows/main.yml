@@ -1,3 +1,4 @@
+exit 0 # <--- Stop doing re-builds on commit?
 on: [push]
 
 jobs:
