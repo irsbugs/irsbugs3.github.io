@@ -1,8 +1,4 @@
-
 on: [push]
-
-run-name: exit 0
-
 
 jobs:
   nikola_build:
