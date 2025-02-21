@@ -368,4 +368,10 @@ Finalist in 1999 International Functional Programming Contest, see
 Jeremy Dawson, jeredaw at gmx dot com
 
 
+Website
+-------
+
+For details about this website click `here <../readme-src/readme/>`__.
+
+
 `[Goto Top] <#top>`_
