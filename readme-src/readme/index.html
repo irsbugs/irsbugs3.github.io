@@ -87,7 +87,7 @@ bg-dark
         
 <article class="post-text storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header></header><div class="e-content entry-content" itemprop="articleBody text">
     <p><a id="Top"></a></p>
-<h2>Welcome to Nikola Static Website Generator</h2>
+<h2>Nikola Static Website Generator on Github</h2>
 <p>This website has been created using Github's ability to provide and run the Nikola 
 application, and also run up to 120+ other applications that may be required by Nikola.</p>
 <p>It does not require a PC to have Nikola software installed and for the PC to <em>push</em> and 
@@ -162,7 +162,7 @@ src &lt;-- Dir Source Code top level branch directory. <br>
 ├── .gitignore &lt;-- Commands for Git. Don't touch. <br> 
 └── conf.py &lt;-- The python program that Nikola runs. It contains many constants that you modify. <br></p>
 
-<p>Every directory has a README.rst file that contains a brief explanation of what is in that
+<p>Most directories have a README.rst file that contains a brief explanation of what is in that
 directory. These README.rst files are omitted in the above tree diagram to make it 
 easier to comprehend the diagram. Although the README files are passed to the "main"
 branch their contents are not normally displayed by the website.</p>
@@ -187,6 +187,8 @@ branch their contents are not normally displayed by the website.</p>
 <span class="err">`</span><span class="p">[</span><span class="n">Goto</span><span class="w"> </span><span class="n">Top</span><span class="p">]</span><span class="w"> </span><span class="o">&lt;</span><span class="err">#</span><span class="n">top</span><span class="o">&gt;</span><span class="err">`</span><span class="n">_</span>
 </pre></div>
 
+<p>Github will display the .rst metadata as a table using three hyphens before and after the metadata,
+however a bug seems to cause it to not incorporate at least the last line of metadata.</p>
 <h3>Metadata Template for .md files</h3>
 <p>All <em>markdown .md</em> filenames should only use <strong>a to z</strong>, <strong>0-9</strong> and a literal dash <strong>-</strong>.</p>
 <p>This is what the <em>slug</em> metadata expects.</p>
@@ -203,9 +205,31 @@ branch their contents are not normally displayed by the website.</p>
 
 <span class="o">&lt;</span><span class="n">a</span><span class="w"> </span><span class="kt">id</span><span class="o">=</span><span class="s">"Top"</span><span class="o">&gt;&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
 
-
 <span class="n">Write</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">Paste</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">document</span><span class="w"> </span><span class="n">here</span><span class="p">...</span>
 
+
+<span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;&lt;</span><span class="n">hr</span><span class="o">&gt;</span>
+<span class="p">[</span><span class="n">Goto</span><span class="w"> </span><span class="n">Top</span><span class="p">](</span><span class="err">#</span><span class="n">top</span><span class="p">)</span>
+</pre></div>
+
+<p>When using Github to display a markdown .md file, the metadata can be presented as a table at the 
+top of the displayed content if three hyphens are placed above and below the metadata. In which
+case this is the .md template:</p>
+<div class="code"><pre class="code literal-block"><span class="o">---</span>
+<span class="nl">title</span><span class="p">:</span><span class="w"> </span><span class="o">*</span><span class="n">My</span><span class="w"> </span><span class="n">Title</span>
+<span class="nl">slug</span><span class="p">:</span><span class="w"> </span><span class="o">*</span><span class="n">name</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">file</span><span class="w"> </span><span class="n">without</span><span class="w"> </span><span class="p">.</span><span class="n">rst</span><span class="w"> </span><span class="n">extension</span><span class="p">.</span>
+<span class="nl">date</span><span class="p">:</span><span class="w"> </span><span class="o">*</span><span class="mi">2025</span><span class="mo">-02</span><span class="mi">-15</span>
+<span class="nl">tags</span><span class="p">:</span><span class="w"> </span>
+<span class="nl">category</span><span class="p">:</span><span class="w"> </span>
+<span class="nl">link</span><span class="p">:</span><span class="w"> </span>
+<span class="nl">description</span><span class="p">:</span><span class="w"> </span><span class="o">*</span><span class="n">Write</span><span class="w"> </span><span class="n">description</span><span class="w"> </span>
+<span class="nl">type</span><span class="p">:</span><span class="w"> </span><span class="n">text</span>
+<span class="nl">hidetitle</span><span class="p">:</span><span class="w"> </span><span class="nb">true</span>
+<span class="o">---</span>
+
+<span class="o">&lt;</span><span class="n">a</span><span class="w"> </span><span class="kt">id</span><span class="o">=</span><span class="s">"Top"</span><span class="o">&gt;&lt;/</span><span class="n">a</span><span class="o">&gt;</span>
+
+<span class="n">Write</span><span class="w"> </span><span class="n">or</span><span class="w"> </span><span class="n">Paste</span><span class="w"> </span><span class="n">your</span><span class="w"> </span><span class="n">document</span><span class="w"> </span><span class="n">here</span><span class="p">...</span>
 
 <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;&lt;</span><span class="n">hr</span><span class="o">&gt;</span>
 <span class="p">[</span><span class="n">Goto</span><span class="w"> </span><span class="n">Top</span><span class="p">](</span><span class="err">#</span><span class="n">top</span><span class="p">)</span>
