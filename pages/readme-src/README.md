@@ -34,7 +34,7 @@ Markdown *.md* and then upload this file to a suitable folder in Github *src* br
 For each *Commit* the website is re-built and located in the *main* branch. Do not edit any 
 files in *main* branch as they will get replaced during the next *Commit* that is perform.
 
-The src top-level directory has 4 x folders and 3 x files. 
+The src top-level directory has 4 x folders and 2 x files. 
 The four folders are:
 ```
 .github <--- Contains the workflow folder with thew main.yml yaml file for Nikola to rebuild the wbsite
@@ -44,10 +44,9 @@ pages   <--- Folder for all the .rst or .md files that become .html webpages.
 ```
 
 
-The three files are:
+The two files are:
 ```
 .gitignore <--- Command for *git*. Dont change this file.
-README.rst <--- The file you are now reading. However its a copy
 conf.py    <--- This python configuration file performs the loading of constants that are
                 used by Nikola every time the website is re-built. 
 ```
@@ -93,7 +92,10 @@ src <-- Dir Source Code top level branch directory. <br>
 │&nbsp;&nbsp;&nbsp;├── streisand-uk-police.rst <-- Write-up file <br>  
 │&nbsp;&nbsp;&nbsp;│ <br> 
 │&nbsp;&nbsp;&nbsp;├── index.rst <-- Write-up file. The Welcome or Home page. <br> 
-│ <br> 
+│&nbsp;&nbsp;&nbsp;│ <br> 
+│&nbsp;&nbsp;&nbsp;└── readme-src <br> 
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md <br>
+│ <br>
 ├── .gitignore <-- Commands for Git. Don't touch. <br> 
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
 </p>
