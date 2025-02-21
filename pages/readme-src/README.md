@@ -72,8 +72,7 @@ src <-- Dir Source Code top level branch directory. <br>
 ├── images <br> 
 │&nbsp;&nbsp;&nbsp;├── favicon-16x16.png <-- Icons to insert in the web-browser tab <br> 
 │&nbsp;&nbsp;&nbsp;├── favicon-32x32.png <-- <br> 
-│&nbsp;&nbsp;&nbsp;├── jd-logo.svg <-- An svg file that contains the logo. <br> 
-│&nbsp;&nbsp;&nbsp;└── julian_assange.jpg <-- Example picture used by Demo. <br> 
+│&nbsp;&nbsp;&nbsp;└── jd-logo.svg <-- A .svg file that contains the logo. <br> 
 │ <br>
 ├── pages <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
