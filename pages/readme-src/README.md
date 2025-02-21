@@ -12,8 +12,8 @@ hidetitle: True
 
 <a id="Top"></a>
 
-Welcome to Nikola Static Website Generator
-==========================================
+Nikola Static Website Generator on Github
+=========================================
 
 This website has been created using Github's ability to provide and run the Nikola 
 application, and also run up to 120+ other applications that may be required by Nikola.
@@ -99,7 +99,7 @@ src <-- Dir Source Code top level branch directory. <br>
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
 </p>
 
-Every directory has a README.rst file that contains a brief explanation of what is in that
+Most directories have a README.rst file that contains a brief explanation of what is in that
 directory. These README.rst files are omitted in the above tree diagram to make it 
 easier to comprehend the diagram. Although the README files are passed to the "main"
 branch their contents are not normally displayed by the website.
@@ -131,6 +131,8 @@ Write or Paste your document here...
 `[Goto Top] <#top>`_
 
 ```
+Github will display the .rst metadata as a table using three hyphens before and after the metadata,
+however a bug seems to cause it to not incorporate at least the last line of metadata.
 
 Metadata Template for .md files
 -------------------------------
@@ -154,12 +156,35 @@ hidetitle: true
 
 <a id="Top"></a>
 
-
 Write or Paste your document here...
 
 
 <br><hr>
 [Goto Top](#top)
 ```
+When using Github to display a markdown .md file, the metadata can be presented as a table at the 
+top of the displayed content if three hyphens are placed above and below the metadata. In which
+case this is the .md template:
+```
+---
+title: *My Title
+slug: *name of file without .rst extension.
+date: *2025-02-15
+tags: 
+category: 
+link: 
+description: *Write description 
+type: text
+hidetitle: true
+---
+
+<a id="Top"></a>
+
+Write or Paste your document here...
+
+<br><hr>
+[Goto Top](#top)
+```
+
 
 [Goto Top](#top)
