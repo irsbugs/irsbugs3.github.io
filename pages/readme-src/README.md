@@ -94,7 +94,7 @@ src <-- Dir Source Code top level branch directory. <br>
 │&nbsp;&nbsp;&nbsp;├── index.rst <-- Write-up file. The Welcome or Home page. <br> 
 │&nbsp;&nbsp;&nbsp;│ <br> 
 │&nbsp;&nbsp;&nbsp;└── readme-src <br> 
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md <br> <-- The file you are now reading.
+│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── README.md  <-- The file you are now reading. <br>
 │ <br>
 ├── .gitignore <-- Commands for Git. Don't touch. <br> 
 └── conf.py <-- The python program that Nikola runs. It contains many constants that you modify. <br>
